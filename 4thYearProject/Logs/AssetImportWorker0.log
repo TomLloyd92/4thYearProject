@@ -15,12 +15,12 @@ C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56594
+57025
 Successfully changed project path to: C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.49 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 1.46 ms.
+Refreshing native plugins compatible for Editor in 34.46 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.16 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject/Assets
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001461 seconds.
+Registered in 0.001291 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.25 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 27.62 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
+- Completed reload, in  0.691 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003786 seconds.
+Registered in 0.004004 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.36 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 26.79 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -69,25 +69,866 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.643 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.9 MB.
-System memory in use after: 81.9 MB.
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2232.
-Total: 2.094800 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.076000 ms MarkObjects: 1.754800 ms  DeleteObjects: 0.058900 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2233.
+Total: 2.255700 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.247300 ms MarkObjects: 1.589200 ms  DeleteObjects: 0.053700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/New Folder
-  artifactKey: Guid(94f76e3f11e429b4c8678266b2de2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/New Folder using Guid(94f76e3f11e429b4c8678266b2de2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d137ae7d7ea5e75e54fac1c1be17a3') in 0.007996 seconds
-  Import took 0.010107 seconds .
+  path: Assets/VR Controllers Models/Oculus Quest Controller - Left.prefab
+  artifactKey: Guid(c836783e3928a624e9ff9c70d4f21606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Quest Controller - Left.prefab using Guid(c836783e3928a624e9ff9c70d4f21606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4f82685e750f0e9f47ef6a531deae8') in 0.076507 seconds
+  Import took 0.079104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/VR Controllers Models/OpenVR Controller(Knuckles DV Left) - Left.prefab
+  artifactKey: Guid(542a6345c56bbcd41b92f421fac57d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/OpenVR Controller(Knuckles DV Left) - Left.prefab using Guid(542a6345c56bbcd41b92f421fac57d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7211c0c7cdca265f40645de1148918') in 0.011945 seconds
+  Import took 0.014152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/VR Controllers Models/Default Controller.prefab
+  artifactKey: Guid(0540e32b498ef284f8e1dcf80dfccd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Default Controller.prefab using Guid(0540e32b498ef284f8e1dcf80dfccd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e652c7b0298d4a2675fd7af6880ebb63') in 0.010409 seconds
+  Import took 0.012239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/VR Controllers Models/Oculus Quest Controller - Right.prefab
+  artifactKey: Guid(cfa8dc06d611ba340b06bbefba58ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Quest Controller - Right.prefab using Guid(cfa8dc06d611ba340b06bbefba58ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc65fbad7ffb1185eddb7afecab5200') in 0.010635 seconds
+  Import took 0.012738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/VR Controllers Models/Oculus Touch Controller - Right.prefab
+  artifactKey: Guid(0efe8147fc0009d4ea3039b2374d927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Touch Controller - Right.prefab using Guid(0efe8147fc0009d4ea3039b2374d927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c9f03eed642dc0be60f1540f19cf51') in 0.010698 seconds
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/VR Controllers Models/Oculus Touch Controller - Left.prefab
+  artifactKey: Guid(b2ec64201e9ec6c4ba155691307536cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Touch Controller - Left.prefab using Guid(b2ec64201e9ec6c4ba155691307536cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45df70e8f98401c6d827af2b9b1f822c') in 0.010660 seconds
+  Import took 0.012847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Left.prefab
+  artifactKey: Guid(c4b9c875ed967534eb12cd57aeeb1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Left.prefab using Guid(c4b9c875ed967534eb12cd57aeeb1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f417a461cf8b0ed30d0c1548445ad038') in 0.014101 seconds
+  Import took 0.016464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Controllers Models/OpenVR Controller(Knuckles DV Right) - Right.prefab
+  artifactKey: Guid(aafefdd564a300c4d93806fdc271c41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/OpenVR Controller(Knuckles DV Right) - Right.prefab using Guid(aafefdd564a300c4d93806fdc271c41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16107f461703819544e29f9b10c0632b') in 0.013839 seconds
+  Import took 0.016494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Right.prefab
+  artifactKey: Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Right.prefab using Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d542c7a51d2fdd42223181e2a7804e') in 0.013555 seconds
+  Import took 0.016585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002378 seconds.
+  path: Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Right.prefab
+  artifactKey: Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/OpenVR Controller(Vive Controller MV) - Right.prefab using Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d542c7a51d2fdd42223181e2a7804e') in 0.006570 seconds
+  Import took 0.008858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.474667 seconds.
+  path: Assets/VR Controllers Models/Default Controllers
+  artifactKey: Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Default Controllers using Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc684c4bbf53e5279a2c9ff832e247d') in 0.005806 seconds
+  Import took 0.008517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001492 seconds.
+  path: Assets/VR Controllers Models/Default Controllers
+  artifactKey: Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Default Controllers using Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc684c4bbf53e5279a2c9ff832e247d') in 0.002174 seconds
+  Import took 0.004420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899091 seconds.
+  path: Assets/VR Controllers Models/Default Controllers/Default Controller.obj
+  artifactKey: Guid(3ad3c8a0cd60ccd489485ec2973dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Default Controllers/Default Controller.obj using Guid(3ad3c8a0cd60ccd489485ec2973dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a63da5715d92a9a6b743f737c538d07') in 0.055238 seconds
+  Import took 0.057848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.246800 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers
+  artifactKey: Guid(e7c3bff80341b94488a2825de4560557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers using Guid(e7c3bff80341b94488a2825de4560557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f6344b639fa96f30cba482570ac56c') in 0.006194 seconds
+  Import took 0.008746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.077642 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left
+  artifactKey: Guid(641b2c82d4ca3114dacf81fc597f55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left using Guid(641b2c82d4ca3114dacf81fc597f55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1676ef7de18270e9abc6e29802d1dc4') in 0.006079 seconds
+  Import took 0.008661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058634 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd
+  artifactKey: Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd using Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17545d9dcd74c23c94cc1d914da4a2cc') in 0.018186 seconds
+  Import took 0.020792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png
+  artifactKey: Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png using Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8669a300d1a9eb7f4a75d511d48e88') in 0.021618 seconds
+  Import took 0.023746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/oculus_cv1_controller_left.obj
+  artifactKey: Guid(a0080df8c0c15724d954d8a5b0e9a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/oculus_cv1_controller_left.obj using Guid(a0080df8c0c15724d954d8a5b0e9a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85132b3b24f1ffdf54fb237cb125c378') in 0.015795 seconds
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png
+  artifactKey: Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png using Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7242180ac4ebd19dd44f5871eb4bb0') in 0.012694 seconds
+  Import took 0.015098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.472289 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials
+  artifactKey: Guid(2c585de26e6e84703af9128e35b95efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials using Guid(2c585de26e6e84703af9128e35b95efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e165d2fc156e3371d2de1fe64f9caf') in 0.006337 seconds
+  Import took 0.009335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067015 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat
+  artifactKey: Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat using Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028980c8996fc5930e061dade395f43') in 0.012747 seconds
+  Import took 0.015547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.188313 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers
+  artifactKey: Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers using Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d714fa2124fca5651d0db0b3d65bd') in 0.006175 seconds
+  Import took 0.008975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002787 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers
+  artifactKey: Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers using Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d714fa2124fca5651d0db0b3d65bd') in 0.002153 seconds
+  Import took 0.004532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.251477 seconds.
+  path: Assets/Scripts/Player/HandPresence.cs
+  artifactKey: Guid(696b59d5b76bdc449b10e8f2e119f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/HandPresence.cs using Guid(696b59d5b76bdc449b10e8f2e119f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095b3716b7b233b63508da96caf0c932') in 0.008953 seconds
+  Import took 0.011989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010358 seconds.
+  path: Assets/Scripts/Player/HandPresence.cs
+  artifactKey: Guid(696b59d5b76bdc449b10e8f2e119f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/HandPresence.cs using Guid(696b59d5b76bdc449b10e8f2e119f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095b3716b7b233b63508da96caf0c932') in 0.002613 seconds
+  Import took 0.005233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.192988 seconds.
+  path: Assets/Prefabs/Player
+  artifactKey: Guid(ceb75cd24ee4f8a4f97259ea7e43e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player using Guid(ceb75cd24ee4f8a4f97259ea7e43e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5587c246b90d1d9a241d5773194c31a') in 0.002803 seconds
+  Import took 0.005577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Prefabs/Player
+  artifactKey: Guid(ceb75cd24ee4f8a4f97259ea7e43e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player using Guid(ceb75cd24ee4f8a4f97259ea7e43e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5587c246b90d1d9a241d5773194c31a') in 0.002266 seconds
+  Import took 0.004788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091361 seconds.
+  path: Assets/Prefabs/Player/Controller.prefab
+  artifactKey: Guid(f7a459b70b7d32241ac1be0f83932a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Controller.prefab using Guid(f7a459b70b7d32241ac1be0f83932a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2fe49c309e73977c36fb9fd25d7a17') in 0.016209 seconds
+  Import took 0.018861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd19caa0c1b625ff72e3057c12ec3fe') in 0.028802 seconds
+  Import took 0.031155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c673e69868a40b8d1f0cd3e5bf77b1') in 0.006729 seconds
+  Import took 0.009259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1762a80db4f78882d0f651b82276bf') in 0.007165 seconds
+  Import took 0.009569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.203215 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c593763cc51ba08fa18ef12338a8b8bb') in 0.004180 seconds
+  Import took 0.007057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.568037 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef25ba485a09c9b89dfcea1c42784bf') in 0.003985 seconds
+  Import took 0.006435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.302853 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5227d6d339da151674b58ed65e2376') in 0.004148 seconds
+  Import took 0.006696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.952756 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb4c824cd263eb04b09e01ace49223d') in 0.005487 seconds
+  Import took 0.008387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.821635 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646c2ba439f63f2c4702242cfb11cd1c') in 0.004651 seconds
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001599 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646c2ba439f63f2c4702242cfb11cd1c') in 0.004365 seconds
+  Import took 0.006794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 2.125600 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.077500 ms MarkObjects: 1.748700 ms  DeleteObjects: 0.043400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.070693 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08df9907820dc3b146616ba37c3c590d') in 0.041718 seconds
+  Import took 0.044263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029844 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6aad07a3bda505dadaa9c8d58356ce') in 0.004144 seconds
+  Import took 0.006792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002938 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6aad07a3bda505dadaa9c8d58356ce') in 0.003736 seconds
+  Import took 0.005851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.649978 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c1b04c405723e2a1f70ae52be01671') in 0.005584 seconds
+  Import took 0.008344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.018184 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f4936ea9a4fdcff74dec4e3f676410') in 0.005568 seconds
+  Import took 0.008196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.023680 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe175cb1081213b3fa6c8306a3ca5d26') in 0.006360 seconds
+  Import took 0.009094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455534 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f1fdfec5fe20f29ddb8061047e87f3') in 0.006071 seconds
+  Import took 0.008788 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 2.427800 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.077300 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.169097 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/Left Hand Model.prefab
+  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/Left Hand Model.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0db97b220508f617beabb7264694da') in 0.062627 seconds
+  Import took 0.065824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab
+  artifactKey: Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab using Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182e209cf36d33d7a679c0a1cedd0555') in 0.024667 seconds
+  Import took 0.027518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002421 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab
+  artifactKey: Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab using Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182e209cf36d33d7a679c0a1cedd0555') in 0.008826 seconds
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.217479 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8767ef20dc2278787b5631c953ddcff') in 0.017118 seconds
+  Import took 0.020028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.943709 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35538681e8d31b7f2965eb6238fca1e') in 0.005330 seconds
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.527476 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7252873377e4c5fe5840aa6412a25805') in 0.006013 seconds
+  Import took 0.009291 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 2.315800 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.930900 ms  DeleteObjects: 0.057400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.124920 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/l_hand_default_anim.fbx
+  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aceea94f734ed3b0a2b1c624a63efb1') in 0.026635 seconds
+  Import took 0.029935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/r_hand_default_anim.fbx
+  artifactKey: Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9b56bef99f3ef61d987b464e58db4d') in 0.008266 seconds
+  Import took 0.010750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx
+  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41416bb5ac7a848f874290ad80cbdbd') in 0.015127 seconds
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx
+  artifactKey: Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx using Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710a2c1ff27e38fc8464300f6fa317a') in 0.009725 seconds
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx
+  artifactKey: Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx using Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b6943c71eb369db5187a336141a149') in 0.009646 seconds
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/3D Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx
+  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160e68667304934781a033181d2f410a') in 0.009010 seconds
+  Import took 0.011470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301052 seconds.
+  path: Assets/3D Assets/Oculus Hands/Materials/Hands_solid.mat
+  artifactKey: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e04a9fc8056a20d4770d681e7cdbf3f') in 0.031607 seconds
+  Import took 0.034304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669427 seconds.
+  path: Assets/3D Assets/Oculus Hands/Models/l_hand_skeletal_lowres.fbx
+  artifactKey: Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Models/l_hand_skeletal_lowres.fbx using Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210e743ed6748208fbbf2bc57fe02f2d') in 0.032896 seconds
+  Import took 0.035721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/3D Assets/Oculus Hands/Models/r_hand_skeletal_lowres.fbx
+  artifactKey: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a6d9294fbedf4e2430beafc8a1156c') in 0.022074 seconds
+  Import took 0.024729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.737775 seconds.
+  path: Assets/Prefabs/Player/Controller.prefab
+  artifactKey: Guid(f7a459b70b7d32241ac1be0f83932a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Controller.prefab using Guid(f7a459b70b7d32241ac1be0f83932a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b72d724855d51489b97d0294f7b6f39') in 0.018249 seconds
+  Import took 0.021197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cae3d425e0b0178acfb8325f10b4c4') in 0.019666 seconds
+  Import took 0.021958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3c3d3016cd98742e823f16433cb2a8') in 0.002898 seconds
+  Import took 0.005104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c253d22aaf73ea295bc0f2955cf448') in 0.002712 seconds
+  Import took 0.004345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.875455 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492e2712c47e3dd595dd4c4a03d2ba3c') in 0.003939 seconds
+  Import took 0.006894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.771715 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f721976e3acd69b1f98ba58c51da6c') in 0.003810 seconds
+  Import took 0.006665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.204513 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa87240a33499dd41b7b56055d9e9e71') in 0.004156 seconds
+  Import took 0.006806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.105600 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3d46736c941b8f411fdbf723225a04') in 0.003583 seconds
+  Import took 0.006257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012693 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3d46736c941b8f411fdbf723225a04') in 0.003981 seconds
+  Import took 0.006713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.069489 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b0e54653fefe76908dadbb35f9a5cf') in 0.004629 seconds
+  Import took 0.007956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.094720 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de769e8446e38a5b53076b03b6e07e') in 0.004972 seconds
+  Import took 0.008035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004914 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de769e8446e38a5b53076b03b6e07e') in 0.004485 seconds
+  Import took 0.007136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.327746 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969db504b303f22ccf7283a0804409fe') in 0.004981 seconds
+  Import took 0.008031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.803622 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ba9c054d7ffe476cbda8b29ed2726b') in 0.005600 seconds
+  Import took 0.008716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.483846 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada3883582f7cb80b7f7b1f5e3ccc122') in 0.005132 seconds
+  Import took 0.007996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.826261 seconds.
+  path: Assets/Prefabs/Player/Left Hand Presence.prefab
+  artifactKey: Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Left Hand Presence.prefab using Guid(7c37f3d8584c1ca408c80488804ebbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4467a947b72d7bcc0da2821165a2f3') in 0.005009 seconds
+  Import took 0.007851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.247394 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52820eb571ea893961d58ec6f4c9fac') in 0.004030 seconds
+  Import took 0.006964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.210872 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282cb7aa44bcb40fbaeea8d3ee5c7189') in 0.003661 seconds
+  Import took 0.006646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601259 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160733800d814c4a2b4cde7822bb415a') in 0.003675 seconds
+  Import took 0.006436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.179507 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a426c2aa36a201872f3e49db67cb42') in 0.003697 seconds
+  Import took 0.006743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.097550 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e6ff1066293109b9db4709ec184011') in 0.004739 seconds
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.394595 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe4d120726ad7e186838b34c8812e7d') in 0.004275 seconds
+  Import took 0.007295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.056976 seconds.
+  path: Assets/Prefabs/Player/Right Hand Presence.prefab
+  artifactKey: Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Right Hand Presence.prefab using Guid(69860b40fd02627498144ce4850b8c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dc23f7226e2d48787d9be161fbf164') in 0.005705 seconds
+  Import took 0.008752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.153303 seconds.
+  path: Assets/Prefabs/Player/VR Rig.prefab
+  artifactKey: Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/VR Rig.prefab using Guid(27488fb660d415347998cdc58ddb3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd668a9870f0d418c506931cea2729ffa') in 0.005058 seconds
+  Import took 0.007940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.495768 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs
+  artifactKey: Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs using Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65ab962202355854aa666655adde6ba') in 0.007052 seconds
+  Import took 0.010509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs
+  artifactKey: Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs using Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65ab962202355854aa666655adde6ba') in 0.002661 seconds
+  Import took 0.005091 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.272500 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.098800 ms MarkObjects: 1.745900 ms  DeleteObjects: 0.051000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.971546 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/White.mat
+  artifactKey: Guid(ed835ad2896b0d94fa742fc03a4b8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/White.mat using Guid(ed835ad2896b0d94fa742fc03a4b8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764ff6550cb03cdc37e3e9db529e477a') in 0.062180 seconds
+  Import took 0.064793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.644909 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/Left Hand Model.prefab
+  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/Left Hand Model.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272beb031e9c19a81f593a5c35edfcc6') in 0.018432 seconds
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.498654 seconds.
+  path: Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab
+  artifactKey: Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Oculus Hands/Prefabs/Right Hand Model.prefab using Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5862f788b3f37f2a5176e3480b7a918b') in 0.012357 seconds
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.576 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.110500 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.068800 ms MarkObjects: 1.778900 ms  DeleteObjects: 0.040500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
