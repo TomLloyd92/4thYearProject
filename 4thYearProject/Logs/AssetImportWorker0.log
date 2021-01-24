@@ -15,12 +15,12 @@ C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53388
+56594
 Successfully changed project path to: C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 16.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 34.49 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.46 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject/Assets
@@ -35,262 +35,59 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001549 seconds.
+Registered in 0.001461 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 26.25 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.700 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000608 seconds.
+Registered in 0.003786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 27.36 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.0 MB.
-System memory in use after: 56.0 MB.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1533.
-Total: 1.680000 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.436000 ms  DeleteObjects: 0.047400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Level.prefab
-  artifactKey: Guid(576325aef88e4564ba513313a753c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level.prefab using Guid(576325aef88e4564ba513313a753c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a882b8ffbfdead3a85dfebbd81e3cb') in 0.035506 seconds
-  Import took 0.045291 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 2.094800 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.076000 ms MarkObjects: 1.754800 ms  DeleteObjects: 0.058900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.622813 seconds.
-  path: Assets/Level.prefab
-  artifactKey: Guid(576325aef88e4564ba513313a753c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level.prefab using Guid(576325aef88e4564ba513313a753c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d80b29dd7c38c9fbab517bae006e221') in 1.744681 seconds
-  Import took 1.750057 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000487 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.560 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1546.
-Total: 2.102600 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.771400 ms  DeleteObjects: 0.054300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.494844 seconds.
-  path: Assets/Directional Light.prefab
-  artifactKey: Guid(250233fd27cce164f8a08406940ba824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Directional Light.prefab using Guid(250233fd27cce164f8a08406940ba824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08218d9a03dc47e32cbf9e310e65b244') in 0.022233 seconds
-  Import took 0.024131 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000513 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.535 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1548.
-Total: 2.467900 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.179900 ms  DeleteObjects: 0.041700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.329173 seconds.
-  path: Assets/New Lighting Settings.lighting
-  artifactKey: Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Lighting Settings.lighting using Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74fe0750d0c17ca91b08dc74c248ac') in 0.016039 seconds
-  Import took 0.018064 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.570 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1550.
-Total: 2.374000 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.012500 ms  DeleteObjects: 0.052500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 177.677572 seconds.
-  path: Assets/LightingData.asset
-  artifactKey: Guid(98efe5f5b693f8a46a7d375e2ad02bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightingData.asset using Guid(98efe5f5b693f8a46a7d375e2ad02bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41dbf350b3aa847107effc5108c91e') in 0.427057 seconds
-  Import took 0.432364 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000896 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1552.
-Total: 1.568700 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.346100 ms  DeleteObjects: 0.038300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 169.913360 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.008129 seconds
-  Import took 0.009982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.707934 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(069aa0fd80fcddb4d960ff9911c4bc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(069aa0fd80fcddb4d960ff9911c4bc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d3d2f7989a98bf6bf77d89c7116b2f') in 0.006866 seconds
-  Import took 0.008763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.510352 seconds.
-  path: Assets/Light
-  artifactKey: Guid(93ff2788bc634fc4f91264055ca4818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Light using Guid(93ff2788bc634fc4f91264055ca4818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f83a0b94f54237b17aac716fc707598') in 0.006758 seconds
-  Import took 0.008653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.670333 seconds.
-  path: Assets/New Lighting Settings.lighting
-  artifactKey: Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Lighting Settings.lighting using Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'aab3d2ef5b55f2b9fe047fca822369b2') in 0.011747 seconds
-  Import took 0.013568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001165 seconds.
-  path: Assets/New Lighting Settings.lighting
-  artifactKey: Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Lighting Settings.lighting using Guid(745d49fdb83e36e48ac8163a425decc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'aab3d2ef5b55f2b9fe047fca822369b2') in 0.002619 seconds
-  Import took 0.004193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.064871 seconds.
-  path: Assets/3D Assets
-  artifactKey: Guid(091d700442a35df4a87e488440797389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets using Guid(091d700442a35df4a87e488440797389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a35dbe9deb5455d36abb15b7c7ed855') in 0.006729 seconds
-  Import took 0.008612 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000415 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.492 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1554.
-Total: 1.643200 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.408200 ms  DeleteObjects: 0.039200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.357605 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(e5b363ea1e9df5147ba5182ecbe27ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(e5b363ea1e9df5147ba5182ecbe27ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e4f2e1ed81f13f56dd4aba43196d0c') in 0.008387 seconds
-  Import took 0.010226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.379189 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(e5b363ea1e9df5147ba5182ecbe27ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(e5b363ea1e9df5147ba5182ecbe27ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007af7d6e1f140b845d4998917768da0') in 0.006488 seconds
-  Import took 0.008375 seconds .
+  path: Assets/Prefabs/New Folder
+  artifactKey: Guid(94f76e3f11e429b4c8678266b2de2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Folder using Guid(94f76e3f11e429b4c8678266b2de2c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d137ae7d7ea5e75e54fac1c1be17a3') in 0.007996 seconds
+  Import took 0.010107 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
