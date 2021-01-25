@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3351534036244275939}
-  - component: {fileID: 3351534036244275938}
+  - component: {fileID: 3724622771181232928}
   m_Layer: 0
   m_Name: Left Hand Presence
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3351534036244275938
+--- !u!114 &3724622771181232928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,13 +40,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3351534036244275937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ee04ed09752cf42af025bf7a6e70c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 696b59d5b76bdc449b10e8f2e119f0d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   showController: 0
   controllerCharacteristics: 320
   controllerPrefab:
-  - {fileID: 2039873820458837540, guid: 9218d986d413e0647b20fa305af0cf75, type: 3}
-  - {fileID: 9139019690613971219, guid: b09613c3eff88ff4e9f70666856dc5dc, type: 3}
-  handModelPrefab: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
-    type: 3}
+  - {fileID: 7523567926693483842, guid: b2ec64201e9ec6c4ba155691307536cb, type: 3}
+  - {fileID: 7523567926693483842, guid: b2ec64201e9ec6c4ba155691307536cb, type: 3}
+  handModelPrefab: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
