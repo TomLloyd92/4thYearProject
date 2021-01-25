@@ -69,6 +69,7 @@ public class HandPresence : MonoBehaviour
             //Check for Trigger
             if(targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
             {
+                Debug.Log("Trigger");
                 handAnimator.SetFloat("Trigger", triggerValue);
             }
             else
@@ -103,7 +104,7 @@ public class HandPresence : MonoBehaviour
             UpdateHandAnimator();
         }
 
-        /*
+        
         //A button
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if(primaryButtonValue)
@@ -124,7 +125,7 @@ public class HandPresence : MonoBehaviour
         {
             Debug.Log("TouchPad: " + primary2DAxisValue);
         }
-        */
+        
 
 
 

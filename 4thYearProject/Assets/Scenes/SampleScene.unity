@@ -130,10 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9113940956434447750, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
-      propertyPath: m_ModelPrefab
+    - target: {fileID: 5879467268143760828, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
+      propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      objectReference: {fileID: 1469756745}
+    - target: {fileID: 6014925197117274782, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1469756745}
     - target: {fileID: 9113940957322758475, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
       propertyPath: m_Name
       value: VR Rig
@@ -182,10 +186,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9113940957424036632, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
-      propertyPath: m_ModelPrefab
-      value: 
-      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
 --- !u!1001 &164565216
