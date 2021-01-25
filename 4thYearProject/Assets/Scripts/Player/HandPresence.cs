@@ -22,7 +22,7 @@ public class HandPresence : MonoBehaviour
     {
         //Initialize Controllers
         TryInitialize();
-      
+
     }
 
     void TryInitialize()
@@ -54,12 +54,12 @@ public class HandPresence : MonoBehaviour
             handAnimator = spawnedHandModel.GetComponent<Animator>();
         }
 
-    }    
+    }
 
     void UpdateHandAnimator()
     {
         //Try Initialize Controller if not Detected on start
-        if(!targetDevice.isValid)
+        if (!targetDevice.isValid)
         {
             TryInitialize();
         }
@@ -67,9 +67,8 @@ public class HandPresence : MonoBehaviour
         {
             //Controller inputs
             //Check for Trigger
-            if(targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+            if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
             {
-                Debug.Log("Trigger");
                 handAnimator.SetFloat("Trigger", triggerValue);
             }
             else
@@ -92,7 +91,7 @@ public class HandPresence : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(showController)
+        if (showController)
         {
             spawnedHandModel.SetActive(false);
             spawnedController.SetActive(true);
@@ -104,7 +103,7 @@ public class HandPresence : MonoBehaviour
             UpdateHandAnimator();
         }
 
-        
+        /*
         //A button
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if(primaryButtonValue)
@@ -125,7 +124,7 @@ public class HandPresence : MonoBehaviour
         {
             Debug.Log("TouchPad: " + primary2DAxisValue);
         }
-        
+        */
 
 
 
