@@ -19,7 +19,7 @@ public class StateMachineController : MonoBehaviour
         anim = this.GetComponent<Animator>();
 
         //Start in idle State
-        currentState = new idleState(this.gameObject, anim , player, agent, wayPoints);
+        currentState = new wanderingState(this.gameObject, anim , player, agent, wayPoints);
     }
 
     private void Update()
