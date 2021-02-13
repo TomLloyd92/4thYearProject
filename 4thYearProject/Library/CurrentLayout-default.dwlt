@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1278
     height: 1341
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 136
+  controlID: 139
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -485,10 +485,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be5a0000
-    m_LastClickedID: 23230
-    m_ExpandedIDs: 00000000305a0000325a0000345a0000365a0000385a00003a5a00003c5a0000405a0000425a0000445a0000465a0000485a000000ca9a3b
+    scrollPos: {x: 0, y: 299}
+    m_SelectedIDs: cc5b0000
+    m_LastClickedID: 23500
+    m_ExpandedIDs: 00000000545b0000565b0000585b00005a5b00005c5b00005e5b0000605b0000645b0000665b0000685b00006a5b0000b05b0000c65b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,7 +516,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000305a0000325a0000345a0000365a0000385a00003a5a00003c5a00003e5a0000405a0000425a0000445a0000465a0000485a00004a5a00004c5a0000
+    m_ExpandedIDs: 00000000545b0000565b0000585b00005a5b00005c5b00005e5b0000605b0000625b0000645b0000665b0000685b00006a5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000145500001a5500000c550000006400000a640000d2750000145a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -637,9 +637,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 54eeffff
-      m_LastClickedID: -4524
-      m_ExpandedIDs: 50fbffff
+      m_SelectedIDs: 48e1ffff
+      m_LastClickedID: -7864
+      m_ExpandedIDs: 48e1ffffd6ecffffd8ecffffccfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -699,9 +699,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.3255863, y: 0.29040098, z: 3.8765073}
+    m_Target: {x: 12.448214, y: 0.90999997, z: 5.18305}
     speed: 2
-    m_Value: {x: 6.3255863, y: 0.29040098, z: 3.8765073}
+    m_Value: {x: 12.448214, y: 0.90999997, z: 5.18305}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -748,13 +748,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.05102014, y: 0.81269217, z: -0.07440212, w: -0.57609254}
+    m_Target: {x: 0.026299722, y: 0.22922552, z: 0.004794525, w: -0.97325987}
     speed: 2
-    m_Value: {x: -0.05089601, y: 0.81335616, z: -0.074460335, w: -0.57473207}
+    m_Value: {x: 0.026293231, y: 0.22916894, z: 0.0047933417, w: -0.97301966}
   m_Size:
-    m_Target: 5.366026
+    m_Target: 0.14150998
     speed: 2
-    m_Value: 5.0660257
+    m_Value: 0.14150998
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -827,8 +827,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -349.5
     m_HBaseRangeMax: 349.5
-    m_VBaseRangeMin: -474
-    m_VBaseRangeMax: 474
+    m_VBaseRangeMin: -463.5
+    m_VBaseRangeMax: 463.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -845,11 +845,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 699
-      height: 948
+      height: 927
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 349.5, y: 474}
+    m_Translation: {x: 349.5, y: 463.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -857,9 +857,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -349.5
-      y: -474
+      y: -463.5
       width: 699
-      height: 948
+      height: 927
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 699, y: 948}
