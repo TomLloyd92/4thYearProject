@@ -9,6 +9,8 @@ TagManager:
   - CylinderButton
   - PyramidButton
   - wanderingSecretary
+  - Ticket
+  - ScrumMaster
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8590919078246336835}
   - component: {fileID: 9120375498230968401}
   - component: {fileID: 9103139757599587911}
-  - component: {fileID: 1305642538}
   m_Layer: 0
   m_Name: Ticket
   m_TagString: Ticket
@@ -31,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856828794201606974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 2, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.01}
   m_Children:
   - {fileID: 6576053635979872322}
@@ -205,18 +204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c881a02c7c34246a8a9e0306e43056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1305642538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856828794201606974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c881a02c7c34246a8a9e0306e43056, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  ticketState: 0
+  ID: 0
 --- !u!1 &5386144037333893390
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +219,7 @@ GameObject:
   - component: {fileID: 9074901693997875944}
   m_Layer: 0
   m_Name: Text (TMP)
-  m_TagString: Ticket
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
