@@ -19,7 +19,7 @@ public class CheckTicketAvailible : Node
     {
 
         tickets = GameObject.FindGameObjectsWithTag("Ticket");
-        Debug.Log(tickets.Length);
+        //Debug.Log(tickets.Length);
 
         if (tickets.Length > 0)
         {

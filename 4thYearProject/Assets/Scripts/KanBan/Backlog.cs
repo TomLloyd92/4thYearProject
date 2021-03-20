@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class Backlog : MonoBehaviour
 {
+    private List<Ticket> tickets = new List<Ticket>();
+    [SerializeField] private Transform[] spaces;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
+    #region VR
     private void OnTriggerEnter(Collider collider)
     {
         if(collider.tag == "Ticket")
         {
             collider.GetComponent<Ticket>().freezeTicket();
-
-            Debug.Log("YEHAW");
         }
     }
 
@@ -32,11 +31,28 @@ public class Backlog : MonoBehaviour
         if (collider.tag == "Ticket")
         {
             collider.GetComponent<Ticket>().unfreezeTicket();
-
-            //collider.attachedRigidbody.useGravity = true;
-            //ticket.useGravity = true;
-            Debug.Log("OH NO");
         }
     }
+    #endregion
+
+    public void addTicket(Ticket t_ticket)
+    {
+        tickets.Add(t_ticket);       
+
+        t_ticket.SetOnBoard(spaces[tickets.Count - 1].position);
+    }
+    public void removeTicket(Ticket t_ticket)
+    {
+        tickets.Remove(t_ticket);
+    }
+
+    private void updateTicketPos()
+    {
+        foreach(Ticket ticket in tickets)
+        {
+            ticket.SetOnBoard(this.transform.position);
+        }
+    }
+
 
 }

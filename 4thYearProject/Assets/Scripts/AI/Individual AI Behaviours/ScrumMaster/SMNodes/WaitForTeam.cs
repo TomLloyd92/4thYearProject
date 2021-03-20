@@ -22,7 +22,7 @@ public class WaitForTeam : Node
 
     public override state Evaluate()
     {
-        Debug.Log("WAITING FOR TEAM");
+        //Debug.Log("WAITING FOR TEAM");
         //Start Idle animation
         anim.SetBool("isIdle", true);
 

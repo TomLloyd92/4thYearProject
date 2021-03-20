@@ -11,6 +11,7 @@ TagManager:
   - wanderingSecretary
   - Ticket
   - ScrumMaster
+  - KanBanBoard
   layers:
   - Default
   - TransparentFX

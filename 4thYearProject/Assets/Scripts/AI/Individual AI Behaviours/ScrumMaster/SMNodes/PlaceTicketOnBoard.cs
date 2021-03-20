@@ -10,6 +10,7 @@ public class PlaceTicketOnBoard : Node
 
     private GameObject[] tickets;
 
+
     float timer = 0;
     float waitTime = 5;
 
@@ -33,21 +34,6 @@ public class PlaceTicketOnBoard : Node
         timer += Time.deltaTime;
         tickets = GameObject.FindGameObjectsWithTag("Ticket");
 
-        //Put Ticket in hand
-        if (tickets.Length > 0)
-        {
-            foreach (GameObject ticket in tickets)
-            {
-                Debug.Log(ticket.GetComponent<Ticket>().transform.position);
-
-                if (ticket.GetComponent<Ticket>().ticketState == Ticket.TicketState.Unpublished)
-                {
-                    ticket.GetComponent<Ticket>().SetPickedUp(false);
-                    break;
-                }
-            }
-        }
-
         if (timer > waitTime)
         {
             //Put Ticket in hand
@@ -55,8 +41,6 @@ public class PlaceTicketOnBoard : Node
             {
                 foreach (GameObject ticket in tickets)
                 {
-                    Debug.Log(ticket.GetComponent<Ticket>().transform.position);
-
                     if (ticket.GetComponent<Ticket>().ticketState == Ticket.TicketState.Unpublished)
                     {
                         ticket.GetComponent<Ticket>().ticketState = Ticket.TicketState.BackLog;
@@ -64,8 +48,6 @@ public class PlaceTicketOnBoard : Node
                     }
                 }
             }
-
-
 
             scrumMaster.ticketPickedUp = false;
             anim.SetBool("isMovingTicket", false);

@@ -98,35 +98,14 @@ public class HandPresence : MonoBehaviour
         }
         else
         {
-            spawnedHandModel.SetActive(true);
-            spawnedController.SetActive(false);
-            UpdateHandAnimator();
+            if(spawnedHandModel != null)
+            {
+                spawnedHandModel.SetActive(true);
+                spawnedController.SetActive(false);
+                UpdateHandAnimator();
+
+            }
+
         }
-
-        /*
-        //A button
-        targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
-        if(primaryButtonValue)
-        {
-            Debug.Log("Pressing primary button");
-        }
-
-        //Trigger
-        targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue);
-        if(triggerValue > 0.1f)
-        {
-            Debug.Log("Trigger pulled: " + triggerValue);
-        }
-
-        //JoyStick
-        targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue);
-        if(primary2DAxisValue != Vector2.zero)
-        {
-            Debug.Log("TouchPad: " + primary2DAxisValue);
-        }
-        */
-
-
-
     }
 }
