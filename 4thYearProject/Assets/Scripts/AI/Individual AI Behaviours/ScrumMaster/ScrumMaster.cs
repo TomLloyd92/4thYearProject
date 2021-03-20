@@ -14,6 +14,7 @@ public class ScrumMaster : MonoBehaviour
     public GameObject ticket;
     public GameObject ticketSpawnPoint;
     public Transform handPos;
+    public HandPosition handPosition;
 
     NavMeshAgent agent;
     Animator anim;
@@ -75,7 +76,7 @@ public class ScrumMaster : MonoBehaviour
         //Place Ticket on Kan Ban Actions
         CheckAvailibleTicket availibleTicketNode = new CheckAvailibleTicket();
         MoveToTicket moveToTicketNode = new MoveToTicket(this, agent, anim );
-        PickUpTicket pickUpTicketNode = new PickUpTicket(this, anim, handPos);
+        PickUpTicket pickUpTicketNode = new PickUpTicket(this, anim, handPosition);
         PlaceTicketOnBoard placeTicketOnBoardNode = new PlaceTicketOnBoard(this, anim);
 
         //<----------------- END Leaf Nodes ------------------->
