@@ -12,6 +12,7 @@ TagManager:
   - Ticket
   - ScrumMaster
   - KanBanBoard
+  - MeetingPoints
   layers:
   - Default
   - TransparentFX

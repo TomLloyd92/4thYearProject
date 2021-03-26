@@ -23,10 +23,6 @@ public class PlaceTicketOnBoard : Node
     //Evaluate node, return state
     public override state Evaluate()
     {
-        if (!scrumMaster.ticketPickedUp)
-        {
-            return state.Success;
-        }
 
         //Start Pick Up Ticket
         anim.SetBool("isMovingTicket", true);
