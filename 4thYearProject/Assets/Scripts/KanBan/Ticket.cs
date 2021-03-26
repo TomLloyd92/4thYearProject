@@ -9,8 +9,11 @@ public class Ticket : MonoBehaviour
         Unpublished,
         BackLog,
         InDev,
+        DevDone,
         Testing,
+        TestingDone,
         Release,
+        ReleaseDone,
         Done
     }
     public TicketState ticketState;
@@ -68,6 +71,7 @@ public class Ticket : MonoBehaviour
         //On Board
         else if (onBoard)
         {
+
             transform.position = boardPos;
         }
     }
@@ -93,6 +97,12 @@ public class Ticket : MonoBehaviour
         return true;
     }
 
+
+    public bool GetPickedUp()
+    {
+        return pickedUp;
+    }
+
     public void SetOnBoard(Vector3 position)
     {
         //Freeze ticket while on board;
@@ -108,11 +118,12 @@ public class Ticket : MonoBehaviour
 
     public void SetPickedUp(bool t_pickedUp, HandPosition t_handPos)
     {
+       unfreezeTicket();
+       onBoard = false;
+       pickedUp = t_pickedUp;
        handPos = t_handPos;
        transform.rotation = Quaternion.identity;
        transform.Rotate(0, -90, 0);
-       onBoard = false;
-       pickedUp = t_pickedUp;
     }
 
     private void ticketStateUpdate()
@@ -122,14 +133,15 @@ public class Ticket : MonoBehaviour
         {
             case TicketState.BackLog:
                 kanban.GetBacklog().addTicket(this.gameObject.GetComponent<Ticket>());
-
-
                 Debug.Log("BackLog");
                 break;
             case TicketState.InDev:
+                kanban.GetInDev().addTicket(this.gameObject.GetComponent<Ticket>());
+
                 Debug.Log("InDev");
                 break;
             case TicketState.Testing:
+                kanban.GetTesting().addTicket(this.gameObject.GetComponent<Ticket>());
                 Debug.Log("TESTING");
                 break;
             case TicketState.Release:
@@ -139,7 +151,6 @@ public class Ticket : MonoBehaviour
                 Debug.Log("NOTHING");
                 break;
         }
-
 
         //Set old TicketState to the new one
         oldTicketState = ticketState;

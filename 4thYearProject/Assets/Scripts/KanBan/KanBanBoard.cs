@@ -12,9 +12,19 @@ public class KanBanBoard : MonoBehaviour
     [SerializeField] public Release release;
     [SerializeField] public Done done;
 
+    public InDev GetInDev()
+    {
+        return inDev;
+    }
+
     public Backlog GetBacklog()
     {
         return backlog;
+    }
+
+    public Testing GetTesting()
+    {
+        return testing;
     }
 
     // Start is called before the first frame update

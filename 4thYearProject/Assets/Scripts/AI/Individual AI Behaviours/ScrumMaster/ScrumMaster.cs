@@ -24,8 +24,6 @@ public class ScrumMaster : MonoBehaviour
     public bool standUpCompleted;
     public bool ticketPickedUp;
 
-
-
     Selector headNode;
 
     private void Awake()
@@ -107,8 +105,4 @@ public class ScrumMaster : MonoBehaviour
         //HeadNode Set
         headNode = new Selector(new List<Node> { greetSequence, workSelector });
     }
-
-
-
-
 }

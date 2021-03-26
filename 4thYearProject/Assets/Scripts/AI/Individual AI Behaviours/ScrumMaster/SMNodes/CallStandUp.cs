@@ -39,7 +39,7 @@ public class CallStandUp : Node
         }
         else
         {
-            //Start Shaking hand animation
+            //Start Pointing to board
             anim.SetBool("isPointing", true);
             timer += Time.deltaTime;
 

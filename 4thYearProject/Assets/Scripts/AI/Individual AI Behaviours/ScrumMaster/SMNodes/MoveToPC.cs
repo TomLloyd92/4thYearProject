@@ -45,7 +45,7 @@ public class MoveToPC : Node
         }
         else
         {
-            Debug.Log("PC WALKING SUCCESS");
+           // Debug.Log("PC WALKING SUCCESS");
 
             agent.isStopped = true;
             anim.SetBool("isWalking", false);
