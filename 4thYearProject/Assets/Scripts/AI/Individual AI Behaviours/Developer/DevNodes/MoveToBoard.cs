@@ -51,24 +51,6 @@ public class MoveToBoard : Node
 
             }
         }
-
-        /*
-        //Get Free Position around board
-        foreach (MeetingPoint point in meetingPoint)
-        {
-            if(!point.spotTaken)
-            {
-                distanceToPositions = Vector3.Distance(developer.transform.position, point.transform.position);
-                freePos = point.transform.position;
-                break;
-            }
-            else
-            {
-                //Do nothing
-
-            }
-        }
-        */
     
 
         //If not in range

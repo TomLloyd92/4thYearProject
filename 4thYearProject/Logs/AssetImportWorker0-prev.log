@@ -1,0 +1,606 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60981
+Successfully changed project path to: C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
+C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.39 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.28 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10078 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001283 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.17 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.97 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 2.112900 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.098800 ms MarkObjects: 1.652300 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/NPC/Testing/Ch12_nonPBR@Breathing Idle.fbx
+  artifactKey: Guid(57b4116945288e84686074b404b47087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch12_nonPBR@Breathing Idle.fbx using Guid(57b4116945288e84686074b404b47087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e532cd5289c253e82446d31992ada1') in 0.163655 seconds
+  Import took 0.166531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Animations/NPC/Testing/remy@Breathing Idle.fbx
+  artifactKey: Guid(1e5b01e723ab419478d5b097fea2b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/remy@Breathing Idle.fbx using Guid(1e5b01e723ab419478d5b097fea2b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9826010b0aa79eff79c002b53a6ffc02') in 0.097875 seconds
+  Import took 0.101726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/NPC/Testing/Ch31_nonPBR@Breathing Idle.fbx
+  artifactKey: Guid(2e03b32ddcd4df14695712e478769f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch31_nonPBR@Breathing Idle.fbx using Guid(2e03b32ddcd4df14695712e478769f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b1cfa2a3338a5eb4a9a983ba485bf') in 0.089904 seconds
+  Import took 0.093242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animations/NPC/Testing
+  artifactKey: Guid(dba57a02ae536ae4e8ecd906ce277dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing using Guid(dba57a02ae536ae4e8ecd906ce277dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468f6ad1a524ba4c73e7539c7c86940') in 0.005100 seconds
+  Import took 0.007458 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.65 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 2.889700 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.100200 ms MarkObjects: 2.365800 ms  DeleteObjects: 0.063600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.407652 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_nonPBR.fbx
+  artifactKey: Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_nonPBR.fbx using Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5375a422eca3b9f4d1023bddbbaab3c2') in 0.070924 seconds
+  Import took 0.074093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.709168 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_1001_Diffuse.png
+  artifactKey: Guid(85290d03960a2a947886d41f0911b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_1001_Diffuse.png using Guid(85290d03960a2a947886d41f0911b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f014904ada3d8450e950700b4ce7a0c') in 0.033696 seconds
+  Import took 0.036503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_1001_Specular.png
+  artifactKey: Guid(f5cfc554a1b1d3844a2b6778f31f2ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_1001_Specular.png using Guid(f5cfc554a1b1d3844a2b6778f31f2ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5aee8c595e452251ac42d8fe2e08fc') in 0.013191 seconds
+  Import took 0.015850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_1001_Glossiness.png
+  artifactKey: Guid(9d23cc554cbf18449a471a8c86a598d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_1001_Glossiness.png using Guid(9d23cc554cbf18449a471a8c86a598d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f738bfc8413ae8cc6bf04acfc80b3013') in 0.016942 seconds
+  Import took 0.019412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_1001_Normal.png
+  artifactKey: Guid(f760815324d085b44a0859c0909720d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_1001_Normal.png using Guid(f760815324d085b44a0859c0909720d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3da47d550a1315cc03ca23a15973fb') in 0.016025 seconds
+  Import took 0.018380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Animations/NPC/Testing/Ch01_nonPBR.fbx
+  artifactKey: Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Ch01_nonPBR.fbx using Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048a6651d1c37d14a56a894bfa5d5e18') in 0.078794 seconds
+  Import took 0.081390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.694255 seconds.
+  path: Assets/Prefabs/AI/Testers
+  artifactKey: Guid(bda2e77a06214704aac6cd1645d54077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/Testers using Guid(bda2e77a06214704aac6cd1645d54077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f159a4986c3c3fa2519b375195820973') in 0.007368 seconds
+  Import took 0.010008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007890 seconds.
+  path: Assets/Prefabs/AI/Testers
+  artifactKey: Guid(bda2e77a06214704aac6cd1645d54077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/Testers using Guid(bda2e77a06214704aac6cd1645d54077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f159a4986c3c3fa2519b375195820973') in 0.002314 seconds
+  Import took 0.004863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.944495 seconds.
+  path: Assets/Prefabs/AI/Testers/Tester.prefab
+  artifactKey: Guid(31d74df334c03884a9d62f070cc0851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/Testers/Tester.prefab using Guid(31d74df334c03884a9d62f070cc0851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f768dc710f01db0df65aa86bbaa15a') in 0.044838 seconds
+  Import took 0.047938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.990730 seconds.
+  path: Assets/3D Assets/AI Models/Ch12_1001_Diffuse.png
+  artifactKey: Guid(771486005a024ca44a26e25f72720ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Ch12_1001_Diffuse.png using Guid(771486005a024ca44a26e25f72720ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a11f62572864a48cf7bedf503cb12') in 0.017050 seconds
+  Import took 0.019824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3D Assets/AI Models/Joe.fbx
+  artifactKey: Guid(51b1a1911b53223469026948f6437a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Joe.fbx using Guid(51b1a1911b53223469026948f6437a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba02e714818259938befa14e5d62661d') in 0.084135 seconds
+  Import took 0.086862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3D Assets/AI Models/Ch12_1001_Glossiness.png
+  artifactKey: Guid(6e95ee8af83071f48bd72c8c97d5b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Ch12_1001_Glossiness.png using Guid(6e95ee8af83071f48bd72c8c97d5b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9348b56be2abb32fdd5d19b05628ea') in 0.015933 seconds
+  Import took 0.018138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/3D Assets/AI Models/Matt.fbx
+  artifactKey: Guid(e31354386362f364e9cbb5f98fa9f881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Matt.fbx using Guid(e31354386362f364e9cbb5f98fa9f881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88345f12a282c45dc9c659c951fa9a47') in 0.070217 seconds
+  Import took 0.073017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3D Assets/AI Models/Ch12_1001_Normal.png
+  artifactKey: Guid(0c15e238e855bb74cac55c9869a7bd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Ch12_1001_Normal.png using Guid(0c15e238e855bb74cac55c9869a7bd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62496069df71e57e09a9c098cddd23c3') in 0.017954 seconds
+  Import took 0.020330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3D Assets/AI Models/Ch12_1001_Specular.png
+  artifactKey: Guid(f6026e5dc56e3f64abdb17228ccdc3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Ch12_1001_Specular.png using Guid(f6026e5dc56e3f64abdb17228ccdc3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844d7b6a6cb455e365cb420f67fafd02') in 0.026137 seconds
+  Import took 0.028458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.843150 seconds.
+  path: Assets/3D Assets/AI Models/Shaun.fbx
+  artifactKey: Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/AI Models/Shaun.fbx using Guid(045f75cb8747ebf4e927fe7694345cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81745104640864fb48fd5fe1998a0171') in 0.074681 seconds
+  Import took 0.077603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.418385 seconds.
+  path: Assets/Animations/NPC/Testing/Tester.controller
+  artifactKey: Guid(a8ef4d53039abcc4685aa6c3ae56c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Tester.controller using Guid(a8ef4d53039abcc4685aa6c3ae56c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8346f5e9b02eb085ad33f71125870b') in 0.004643 seconds
+  Import took 0.007201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.744119 seconds.
+  path: Assets/Animations/NPC/Developer/Ch12_nonPBR@Breathing Idle.fbx
+  artifactKey: Guid(0934d72569c59894e83364020703da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/Ch12_nonPBR@Breathing Idle.fbx using Guid(0934d72569c59894e83364020703da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158e286acd5e8693a7052cc0f464b7d0') in 0.030708 seconds
+  Import took 0.034186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Animations/NPC/Developer/PlaceTicket.fbx
+  artifactKey: Guid(b63249ad4eb45bc4599621c0fae985df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/PlaceTicket.fbx using Guid(b63249ad4eb45bc4599621c0fae985df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae90d4d4763b8ee623eb2ccea5b46ff9') in 0.008053 seconds
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Animations/NPC/Developer/Idle.fbx
+  artifactKey: Guid(b041f96db5d0b8c4abb27ed256402267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/Idle.fbx using Guid(b041f96db5d0b8c4abb27ed256402267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d539dc1db2cae6b9a55914756edeafa') in 0.008360 seconds
+  Import took 0.010553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Animations/NPC/Developer/Looking.fbx
+  artifactKey: Guid(c5aad86660dd2394c89e3efa9df70200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/Looking.fbx using Guid(c5aad86660dd2394c89e3efa9df70200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e9777e1fd941e891881f2eebda7ad2') in 0.007898 seconds
+  Import took 0.010019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Animations/NPC/Developer/Walk.fbx
+  artifactKey: Guid(090527b90722f8e488be5746702b70dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/Walk.fbx using Guid(090527b90722f8e488be5746702b70dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e973a7a874374c33601bd2abf25ed399') in 0.008791 seconds
+  Import took 0.011447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Animations/NPC/Developer/Typing.fbx
+  artifactKey: Guid(fb53c72116778164891ea3111e65256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Developer/Typing.fbx using Guid(fb53c72116778164891ea3111e65256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03c7404312e4640f36c578b8e0b778') in 0.009245 seconds
+  Import took 0.011251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.887971 seconds.
+  path: Assets/Animations/NPC/Testing/Idle (2).fbx
+  artifactKey: Guid(6c0bf54e116960947923ea78ed3a226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Idle (2).fbx using Guid(6c0bf54e116960947923ea78ed3a226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6d54b2e330914335648c4d74c2ab43') in 0.008074 seconds
+  Import took 0.010908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.927370 seconds.
+  path: Assets/Animations/NPC/Testing/Idle.fbx
+  artifactKey: Guid(6c0bf54e116960947923ea78ed3a226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Idle.fbx using Guid(6c0bf54e116960947923ea78ed3a226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cc45dd91bb894ec01929c97400248c') in 0.004699 seconds
+  Import took 0.007558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.477311 seconds.
+  path: Assets/Animations/NPC/Testing/Looking.fbx
+  artifactKey: Guid(df6b6dd8753266d43b61b685c4de15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Looking.fbx using Guid(df6b6dd8753266d43b61b685c4de15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9027b5b5f5dee7ea1379bf0d80d90f9') in 0.004970 seconds
+  Import took 0.007621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.762066 seconds.
+  path: Assets/Animations/NPC/Testing/PlaceTicket.fbx
+  artifactKey: Guid(2f36db47ec4c67748920ea33c53619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/PlaceTicket.fbx using Guid(2f36db47ec4c67748920ea33c53619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbcebc565d9064867a2ebcd4b0486e8') in 0.005497 seconds
+  Import took 0.008228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.049943 seconds.
+  path: Assets/Animations/NPC/Testing/Typing.fbx
+  artifactKey: Guid(7d4aefb04f24e224fb81bf0d9060a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Typing.fbx using Guid(7d4aefb04f24e224fb81bf0d9060a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51af862da769257e8fa7b54c7eef4c1') in 0.006545 seconds
+  Import took 0.009400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.607448 seconds.
+  path: Assets/Animations/NPC/Testing/Walk.fbx
+  artifactKey: Guid(cd89165ccb718c04093860cfa6d89a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Walk.fbx using Guid(cd89165ccb718c04093860cfa6d89a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f0c3e58f49549599badbb142242539') in 0.008041 seconds
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 2.136300 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.749800 ms  DeleteObjects: 0.065100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 605.314139 seconds.
+  path: Assets/Prefabs/AI/FrontDesk/OfficeWorkersWayPoint.prefab
+  artifactKey: Guid(a7f8a05cdccd39742a3a07d3ad29e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/FrontDesk/OfficeWorkersWayPoint.prefab using Guid(a7f8a05cdccd39742a3a07d3ad29e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a603e75939ec0c58876f89fe6a52a4d4') in 0.055018 seconds
+  Import took 0.057837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 2.377300 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.954700 ms  DeleteObjects: 0.071700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.7 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 2.381000 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.095500 ms MarkObjects: 1.922200 ms  DeleteObjects: 0.076200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.517148 seconds.
+  path: Assets/Animations/NPC/Testing/Typing.fbx
+  artifactKey: Guid(7d4aefb04f24e224fb81bf0d9060a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Typing.fbx using Guid(7d4aefb04f24e224fb81bf0d9060a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e96ba514e75f46305faf34d031bd46') in 0.025859 seconds
+  Import took 0.029054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.368765 seconds.
+  path: Assets/Animations/NPC/Testing/Walk.fbx
+  artifactKey: Guid(cd89165ccb718c04093860cfa6d89a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Walk.fbx using Guid(cd89165ccb718c04093860cfa6d89a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18308c5b7fe70a06f79285da989c8ee3') in 0.004507 seconds
+  Import took 0.007130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.418560 seconds.
+  path: Assets/Animations/NPC/Testing/Looking.fbx
+  artifactKey: Guid(df6b6dd8753266d43b61b685c4de15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Testing/Looking.fbx using Guid(df6b6dd8753266d43b61b685c4de15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1e84666298dd4e8e857c62d62a2a24') in 0.004881 seconds
+  Import took 0.007739 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.7 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.837300 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.093000 ms MarkObjects: 2.243300 ms  DeleteObjects: 0.075400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.601695 seconds.
+  path: Assets/Scripts/AI/Individual AI Behaviours/NewBehaviourScript.cs
+  artifactKey: Guid(db432b05a9c7c2643b5775312a49e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Individual AI Behaviours/NewBehaviourScript.cs using Guid(db432b05a9c7c2643b5775312a49e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34476c0d6cd6a14b2e60b9387d0de067') in 0.012295 seconds
+  Import took 0.015668 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.7 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.072900 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.737800 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.779202 seconds.
+  path: Assets/Scripts/AI/Individual AI Behaviours/Tester
+  artifactKey: Guid(d1efc59dcf8c71e4296d0da19e2deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Individual AI Behaviours/Tester using Guid(d1efc59dcf8c71e4296d0da19e2deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02042790e07537e383e11f1c12112a0') in 0.004798 seconds
+  Import took 0.007409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001928 seconds.
+  path: Assets/Scripts/AI/Individual AI Behaviours/Tester
+  artifactKey: Guid(d1efc59dcf8c71e4296d0da19e2deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Individual AI Behaviours/Tester using Guid(d1efc59dcf8c71e4296d0da19e2deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02042790e07537e383e11f1c12112a0') in 0.002162 seconds
+  Import took 0.004328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.407949 seconds.
+  path: Assets/Scripts/AI/Individual AI Behaviours/Tester/Tester.cs
+  artifactKey: Guid(d1b218ce2d43f0f429f0e1a2ec1fa999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Individual AI Behaviours/Tester/Tester.cs using Guid(d1b218ce2d43f0f429f0e1a2ec1fa999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379b1c4ec60ebc6006876bbe49c5bd8c') in 0.002220 seconds
+  Import took 0.004814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Scripts/AI/Individual AI Behaviours/Tester/Tester.cs
+  artifactKey: Guid(d1b218ce2d43f0f429f0e1a2ec1fa999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Individual AI Behaviours/Tester/Tester.cs using Guid(d1b218ce2d43f0f429f0e1a2ec1fa999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379b1c4ec60ebc6006876bbe49c5bd8c') in 0.002034 seconds
+  Import took 0.003994 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.7 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 1.901300 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.616300 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

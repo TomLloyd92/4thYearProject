@@ -66,7 +66,7 @@ public class Developer : MonoBehaviour
         //Move To Testing
         DevCheckTicketNotNull ticketNotNull = new DevCheckTicketNotNull(this);
         MoveToTesting moveToTestingNode = new MoveToTesting(this, anim, agent, kanbanboard.testing);
-        DevPlaceInTesting placeInTesting = new DevPlaceInTesting(this, anim, kanbanboard.testing);
+        DevPlaceInTesting placeInTesting = new DevPlaceInTesting(this, anim, kanbanboard.inDev);
 
 
 
