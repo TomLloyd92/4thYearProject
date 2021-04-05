@@ -11,6 +11,7 @@ public class Ticket : MonoBehaviour
         InDev,
         DevDone,
         Testing,
+        CurrentlyTesting,
         TestingDone,
         Release,
         ReleaseDone,
@@ -145,6 +146,7 @@ public class Ticket : MonoBehaviour
                 Debug.Log("TESTING");
                 break;
             case TicketState.Release:
+                kanban.GetRelease().addTicket(this.gameObject.GetComponent<Ticket>());
                 Debug.Log("RELEASE");
                 break;
             default:

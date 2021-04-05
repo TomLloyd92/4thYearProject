@@ -13,6 +13,7 @@ TagManager:
   - ScrumMaster
   - KanBanBoard
   - MeetingPoints
+  - TestMeeting
   layers:
   - Default
   - TransparentFX

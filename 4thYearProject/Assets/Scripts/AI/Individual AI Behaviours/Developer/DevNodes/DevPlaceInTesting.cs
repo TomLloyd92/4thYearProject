@@ -6,16 +6,16 @@ public class DevPlaceInTesting : Node
 {
     Animator anim;
     Developer dev;
-    Testing testing;
+    InDev inDev;
 
     float timer = 0;
     float waitTime = 3;
 
-    public DevPlaceInTesting(Developer t_dev, Animator t_anim, Testing t_testing)
+    public DevPlaceInTesting(Developer t_dev, Animator t_anim, InDev inDev)
     {
         this.dev = t_dev;
         this.anim = t_anim;
-        this.testing = t_testing;
+        this.inDev = inDev;
     }
 
     //Evaluate node, return state
@@ -26,12 +26,9 @@ public class DevPlaceInTesting : Node
 
         timer += Time.deltaTime;
 
-        Debug.Log(timer);
-        Debug.Log("PLACING TICKET NOW");
-
         if (timer > waitTime)
         {
-            testing.removeTicket(dev.currentTicket);
+            inDev.removeTicket(dev.currentTicket);
             Debug.Log("Ticket Placed");
             dev.currentTicket.ticketState = Ticket.TicketState.Testing;
             anim.SetBool("isPlacingTicket", false);
