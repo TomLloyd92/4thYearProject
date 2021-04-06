@@ -8,7 +8,7 @@ public class TestMoveToRelease : Node
     //Private Vars
     private Tester tester;
     private float distance;
-    private float RANGE = 3f;
+    private float RANGE = 4f;
     private Animator anim;
     private NavMeshAgent agent;
     private Release release;
@@ -29,8 +29,6 @@ public class TestMoveToRelease : Node
         //Evaluate Distance to player
         distance = Vector3.Distance(tester.transform.position, release.transform.position);
 
-
-        Debug.Log(distance);
         //If not in range
         if (distance > RANGE)
         {

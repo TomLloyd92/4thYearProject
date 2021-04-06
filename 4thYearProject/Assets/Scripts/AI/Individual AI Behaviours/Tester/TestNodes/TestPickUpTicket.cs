@@ -36,9 +36,11 @@ public class TestPickUpTicket : Node
 
         if (timer > TIME_LIMIT)
         {
+            Debug.Log("Ticket picked up");
+
             anim.SetBool("isPlacingTicket", false);
             tester.currentTicket.SetPickedUp(true, handPos);
-            //backlog.removeTicket(dev.currentTicket);
+            
             timer = 0;
             return state.Success;
         }

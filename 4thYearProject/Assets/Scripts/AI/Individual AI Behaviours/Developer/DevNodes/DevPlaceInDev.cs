@@ -26,7 +26,6 @@ public class DevPlaceInDev : Node
 
         timer += Time.deltaTime;
 
-        Debug.Log(timer);
         Debug.Log("PLACING TICKET NOW");
 
         if (timer > waitTime)

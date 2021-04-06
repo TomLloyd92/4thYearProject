@@ -40,7 +40,6 @@ public class DevPickUpTicket : Node
         {
             anim.SetBool("isPlacingTicket", false);
             dev.currentTicket.SetPickedUp(true, handPos);
-            //backlog.removeTicket(dev.currentTicket);
             timer = 0;
             return state.Success;
         }

@@ -14,6 +14,7 @@ TagManager:
   - KanBanBoard
   - MeetingPoints
   - TestMeeting
+  - ReleaseMeeting
   layers:
   - Default
   - TransparentFX

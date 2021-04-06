@@ -149,6 +149,9 @@ public class Ticket : MonoBehaviour
                 kanban.GetRelease().addTicket(this.gameObject.GetComponent<Ticket>());
                 Debug.Log("RELEASE");
                 break;
+            case TicketState.Done:
+                kanban.GetDone().addTicket(this.gameObject.GetComponent<Ticket>());
+                break;
             default:
                 Debug.Log("NOTHING");
                 break;

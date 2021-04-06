@@ -12,6 +12,10 @@ public class KanBanBoard : MonoBehaviour
     [SerializeField] public Release release;
     [SerializeField] public Done done;
 
+    public Done GetDone()
+    {
+        return done;
+    }
     public Release GetRelease()
     {
         return release;
