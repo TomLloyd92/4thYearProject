@@ -23,9 +23,8 @@ public class ReleaseWorkPc : Node
     //Evaluate node, return state
     public override state Evaluate()
     {
-        //Rotate to look at board
-
-        release.transform.rotation = Quaternion.Slerp(release.transform.rotation, Quaternion.identity, Time.deltaTime);
+        //Rotate to look at boar
+        release.transform.rotation = Quaternion.Slerp(release.transform.rotation, Quaternion.Euler(0, 90, 0), Time.deltaTime);
 
 
         //Start Shaking hand animation

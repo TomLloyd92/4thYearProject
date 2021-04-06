@@ -17,7 +17,7 @@ public class TestTicketCompleted : Node
 
         if (tester.currentTicket != null)
         {
-            if (tester.currentTicket.ticketState != Ticket.TicketState.TestingDone)
+            if (tester.currentTicket.ticketState != Ticket.TicketState.TestingDone && tester.currentTicket.ticketState != Ticket.TicketState.TestingFailed)
             {
                 return state.Success;
             }

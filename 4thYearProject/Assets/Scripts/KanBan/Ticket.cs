@@ -12,6 +12,7 @@ public class Ticket : MonoBehaviour
         DevDone,
         Testing,
         CurrentlyTesting,
+        TestingFailed,
         TestingDone,
         Release,
         ReleaseDone,
@@ -134,26 +135,26 @@ public class Ticket : MonoBehaviour
         {
             case TicketState.BackLog:
                 kanban.GetBacklog().addTicket(this.gameObject.GetComponent<Ticket>());
-                Debug.Log("BackLog");
+                //Debug.Log("BackLog");
                 break;
             case TicketState.InDev:
                 kanban.GetInDev().addTicket(this.gameObject.GetComponent<Ticket>());
 
-                Debug.Log("InDev");
+                //Debug.Log("InDev");
                 break;
             case TicketState.Testing:
                 kanban.GetTesting().addTicket(this.gameObject.GetComponent<Ticket>());
-                Debug.Log("TESTING");
+                //Debug.Log("TESTING");
                 break;
             case TicketState.Release:
                 kanban.GetRelease().addTicket(this.gameObject.GetComponent<Ticket>());
-                Debug.Log("RELEASE");
+               // Debug.Log("RELEASE");
                 break;
             case TicketState.Done:
                 kanban.GetDone().addTicket(this.gameObject.GetComponent<Ticket>());
                 break;
             default:
-                Debug.Log("NOTHING");
+                //Debug.Log("NOTHING");
                 break;
         }
 
