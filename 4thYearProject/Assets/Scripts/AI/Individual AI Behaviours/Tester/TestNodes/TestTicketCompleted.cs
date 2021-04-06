@@ -14,6 +14,7 @@ public class TestTicketCompleted : Node
     //Evaluate node, return state
     public override state Evaluate()
     {
+
         if (tester.currentTicket != null)
         {
             if (tester.currentTicket.ticketState != Ticket.TicketState.TestingDone)
@@ -24,6 +25,7 @@ public class TestTicketCompleted : Node
             {
                 return state.Failure;
             }
+
         }
 
         return state.Failure;

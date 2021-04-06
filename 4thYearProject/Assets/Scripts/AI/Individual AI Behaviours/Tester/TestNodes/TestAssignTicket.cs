@@ -19,6 +19,7 @@ public class TestAssignTicket : Node
     {
         if (tester.currentTicket != null)
         {
+            tester.hasTicket = true;
             return state.Success;
         }
 

@@ -19,6 +19,7 @@ public class DevAssignTicket : Node
     {
         if(dev.currentTicket != null)
         {
+            dev.hasTicket = true;
             return state.Success;
         }
 
@@ -28,8 +29,10 @@ public class DevAssignTicket : Node
         {
             if (!ticket.GetPickedUp())
             {
+
                 dev.currentTicket = ticket;
                 Debug.Log("Ticket Found and assigned");
+                dev.hasTicket = true;
                 //Return running
                 return state.Success;
             }

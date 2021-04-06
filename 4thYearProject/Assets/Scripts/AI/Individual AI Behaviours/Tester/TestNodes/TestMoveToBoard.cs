@@ -18,7 +18,7 @@ public class TestMoveToBoard : Node
     int positionNumber = -1;
 
     float distanceToPositions = 100000;
-    const float RANGE = 1;
+    const float RANGE = 3f;
 
     public TestMoveToBoard(Tester t_test, NavMeshAgent t_agent, Animator t_anim)
     {
@@ -72,7 +72,7 @@ public class TestMoveToBoard : Node
             anim.SetBool("isWalking", false);
 
             //Set Position to taken
-            meetingPoint[positionNumber].takeSpot();
+            //meetingPoint[positionNumber].takeSpot();
 
             //In Range, Return Success
             return state.Success;

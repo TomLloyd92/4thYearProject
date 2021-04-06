@@ -26,10 +26,11 @@ public class TestPlaceInRelease : Node
 
         timer += Time.deltaTime;
 
+
         if (timer > waitTime)
         {
-            kanban.GetTesting().removeTicket(tester.currentTicket);
             tester.currentTicket.ticketState = Ticket.TicketState.Release;
+            kanban.GetTesting().removeTicket(tester.currentTicket);
             anim.SetBool("isPlacingTicket", false);
             timer = 0;
             tester.hasTicket = false;

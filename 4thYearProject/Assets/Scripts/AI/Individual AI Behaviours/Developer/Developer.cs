@@ -80,7 +80,7 @@ public class Developer : MonoBehaviour
         Sequencer availibleTicketSequence = new Sequencer(new List<Node> { availibleTicketNode, devAssignTicketNode });
 
         //Board Moving Ticket
-        Selector pickUpTicketSelector = new Selector(new List<Node> { moveToTicketNode, pickUpTicketNode, moveToInDevNode, placeinDevNode  });
+        Selector pickUpTicketSelector = new Selector(new List<Node> { moveToBoardNode, pickUpTicketNode, moveToInDevNode, placeinDevNode  });
         Sequencer movingTicketSequencer = new Sequencer(new List<Node> { checkTicketInDevNode, pickUpTicketSelector });
 
         //Move Ticket
@@ -92,7 +92,7 @@ public class Developer : MonoBehaviour
         Sequencer workTicketSequencer = new Sequencer(new List<Node> { ticketCompletedNode, workTicketSelector });
 
         //Move to testing
-        Selector moveToTestingSelector = new Selector(new List<Node> { moveToTicketNode, pickUpTicketNode, moveToTestingNode,placeInTesting  });
+        Selector moveToTestingSelector = new Selector(new List<Node> { moveToBoardNode, pickUpTicketNode, moveToTestingNode,placeInTesting  });
         Sequencer moveToTestingSequencer = new Sequencer(new List<Node> { ticketNotNull, moveToTestingSelector });
 
         //<----------------- END SELECTORS AND SEQENCERS -------------------> 

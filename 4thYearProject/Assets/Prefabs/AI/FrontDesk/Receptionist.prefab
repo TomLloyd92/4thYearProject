@@ -1099,8 +1099,9 @@ GameObject:
   - component: {fileID: 3806266194037325712}
   - component: {fileID: 3806266194037325713}
   - component: {fileID: 3806266194037325718}
+  - component: {fileID: 1918766773}
   m_Layer: 0
-  m_Name: Sitting Idle
+  m_Name: Receptionist
   m_TagString: wanderingSecretary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1115,7 +1116,7 @@ Transform:
   m_GameObject: {fileID: 4040849535240419318}
   m_LocalRotation: {x: 0, y: 0.2164396, z: 0, w: 0.97629607}
   m_LocalPosition: {x: -17.402, y: -0.052, z: 16.828}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5000001, y: 1.5, z: 1.5000001}
   m_Children:
   - {fileID: 6178152836829918513}
   - {fileID: 4521091038841646579}
@@ -1252,6 +1253,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoints: []
   player: {fileID: 0}
+--- !u!195 &1918766773
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4040849535240419318}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &4232534923333575634
 GameObject:
   m_ObjectHideFlags: 0

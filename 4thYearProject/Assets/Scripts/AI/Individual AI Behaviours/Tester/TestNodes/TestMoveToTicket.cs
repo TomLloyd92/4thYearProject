@@ -7,9 +7,9 @@ public class TestMoveToTicket : Node
 {
     //Private Vars
     private Tester tester;
-    private float distance;
+    private float distance = 100000;
     private Ticket ticket;
-    private float RANGE = 2;
+    private float RANGE = 3;
     private Animator anim;
     private NavMeshAgent agent;
 
@@ -24,10 +24,14 @@ public class TestMoveToTicket : Node
     //Evaluate node, return state
     public override state Evaluate()
     {
-        ticket = tester.currentTicket;
+        distance = 0;
+
+
 
         //Evaluate Distance to player
-        distance = Vector3.Distance(tester.transform.position, ticket.transform.position);
+        distance = Vector3.Distance(tester.transform.position, tester.currentTicket.transform.position);
+
+        Debug.Log(distance);
 
         //If not in range
         if (distance > RANGE)
@@ -37,7 +41,7 @@ public class TestMoveToTicket : Node
 
             //Set destination for player
             agent.isStopped = false;
-            agent.SetDestination(ticket.transform.position);
+            agent.SetDestination(tester.currentTicket.transform.position);
             //Return Running
             return state.Running;
         }

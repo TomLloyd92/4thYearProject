@@ -13,18 +13,24 @@ public class TestCheckTicketNotNull : Node
 
     public override state Evaluate()
     {
+
+        
         if (tester.currentTicket != null)
         {
             if (tester.currentTicket.ticketState == Ticket.TicketState.TestingDone)
             {
+                Debug.Log("Testing Completed");
+
                 return state.Success;
             }
             else
             {
                 return state.Failure;
             }
+ 
         }
 
         return state.Failure;
+        
     }
 }

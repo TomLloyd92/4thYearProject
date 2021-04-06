@@ -9,7 +9,7 @@ public class DevMoveToTicket : Node
     private Developer dev;
     private float distance;
     private Ticket ticket;
-    private float RANGE = 2;
+    private float RANGE = 4;
     private Animator anim;
     private NavMeshAgent agent;
 
