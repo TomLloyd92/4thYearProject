@@ -9,9 +9,6 @@ public class TalkAboutKanBan : Node
     private Animator anim;
     private AudioSource talkKanBan;
 
-
-    private bool playedAudio = false;
-    private bool timerReached = false;
     float timer = 0;
     float waitTime = 10;
 

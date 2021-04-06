@@ -26,12 +26,12 @@ public class DevPlaceInDev : Node
 
         timer += Time.deltaTime;
 
-        Debug.Log("PLACING TICKET NOW");
+        //Debug.Log("PLACING TICKET NOW");
 
         if (timer > waitTime)
         {
             backlog.removeTicket(dev.currentTicket);
-            Debug.Log("Ticket Placed");
+            //Debug.Log("Ticket Placed");
             dev.currentTicket.ticketState = Ticket.TicketState.InDev;
             anim.SetBool("isPlacingTicket", false);
             timer = 0;

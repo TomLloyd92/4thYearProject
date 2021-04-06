@@ -52,6 +52,8 @@ public class Tester : MonoBehaviour
         TestAssignTicket assignTicketNode = new TestAssignTicket(this, kanbanboard.testing);
 
         //Move Ticket Back - test failed -
+        TestCheckFailedTicket checkFailedTicketNode = new TestCheckFailedTicket(this);
+
         TestTicketInTest checkTicketInTestNode = new TestTicketInTest(this, kanbanboard.testing);
         TestMoveToTicket moveToTicketNode = new TestMoveToTicket(this, anim, agent);
         TestPickUpTicket pickUpTicketNode = new TestPickUpTicket(this, anim, handPos);
@@ -91,8 +93,11 @@ public class Tester : MonoBehaviour
         Selector workTicketSelector = new Selector(new List<Node> { moveToPCNode, workPCNode });
         Sequencer workTicketSequencer = new Sequencer(new List<Node> { ticketCompletedNode, workTicketSelector });
 
+        //Move back to Dev
+        Selector moveBackToDevSelector = new Selector(new List<Node> { moveToBoardNode, pickUpTicketNode, moveToInDevNode, placeinDevNode  });
+        Sequencer moveBackToDevSequencer = new Sequencer(new List<Node> { checkFailedTicketNode, moveBackToDevSelector });
+
         //Move to Release
-        //, , , 
         Selector moveToReleaseSelector = new Selector(new List<Node> { moveToBoardNode, pickUpTicketNode, moveToReleaseNode, placeInRelease });
         Sequencer moveToReleaseSequencer = new Sequencer(new List<Node> { ticketNotNull, moveToReleaseSelector });
 
@@ -101,6 +106,6 @@ public class Tester : MonoBehaviour
 
         //HeadNode
         // , movingTicketSequencer, workTicketSequencer
-        headNode = new Selector(new List<Node> { standUpSequence, getTicketSequence, workTicketSequencer, moveToReleaseSequencer });
+        headNode = new Selector(new List<Node> { standUpSequence, getTicketSequence, workTicketSequencer, moveToReleaseSequencer, moveBackToDevSequencer });
     }
 }

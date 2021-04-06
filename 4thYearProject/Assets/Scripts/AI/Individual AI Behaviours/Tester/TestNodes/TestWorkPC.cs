@@ -23,8 +23,10 @@ public class TestWorkPC : Node
     //Evaluate node, return state
     public override state Evaluate()
     {
+ 
+
         //Rotate to look at board
-        tester.transform.rotation = Quaternion.Slerp(tester.transform.rotation, Quaternion.identity, Time.deltaTime);
+        tester.transform.rotation = Quaternion.Slerp(tester.transform.rotation, Quaternion.Euler(0, 90, 0), Time.deltaTime);
 
 
         //Start Shaking hand animation
@@ -34,10 +36,23 @@ public class TestWorkPC : Node
 
         if (timer > waitTime)
         {
-            tester.currentTicket.ticketState = Ticket.TicketState.TestingDone;
-            anim.SetBool("isWorking", false);
-            timer = 0;
-            return state.Success;
+            int success = Random.Range(100, 0);
+            if (success < 50)
+            {
+                Debug.Log("Test Failed");
+                tester.currentTicket.ticketState = Ticket.TicketState.TestingFailed;
+                anim.SetBool("isWorking", false);
+                timer = 0;
+                return state.Success;
+            }
+            else
+            {
+                Debug.Log("Test Succeded");
+                tester.currentTicket.ticketState = Ticket.TicketState.TestingDone;
+                anim.SetBool("isWorking", false);
+                timer = 0;
+                return state.Success;
+            }
         }
 
         //Return running
