@@ -11,6 +11,8 @@ public class LocomotionController : MonoBehaviour
 
     private XRRayInteractor rightRayInteractor;
 
+    public bool enableTeleport { get; set; } = true;
+
 
  void Start()
     {
@@ -27,7 +29,7 @@ public class LocomotionController : MonoBehaviour
             //rightTeleportRay.gameObject.SetActive(CheckIfActivated(rightTeleportRay));
 
            rightRayInteractor.allowSelect = CheckIfActivated(rightTeleportRay);
-           rightTeleportRay.gameObject.SetActive(CheckIfActivated(rightTeleportRay));
+           rightTeleportRay.gameObject.SetActive(enableTeleport && CheckIfActivated( rightTeleportRay));
         }
     }
 

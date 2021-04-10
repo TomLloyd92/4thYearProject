@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class frontIdleState : State
 {
     AudioSource audio;
+    Canvas infoCanvas;
 
     //Constructor
     //Assign arguments to base class varibles
@@ -20,16 +21,21 @@ public class frontIdleState : State
 
     public override void Enter()
     {
+        infoCanvas = GameObject.FindGameObjectWithTag("MainMenuUi").GetComponent<Canvas>();
+
         //Start the idle Animation
         anim.SetTrigger("isIdle");
         base.Enter();
         audio.Play();
+        infoCanvas.enabled = true;
         //agent.speed = 0;
     }
 
     public override void Update()
     {
         base.Update();
+
+
         //Check distance between npc and player
         float distance = Vector3.Distance(npc.transform.position, player.transform.position);
 
@@ -53,6 +59,7 @@ public class frontIdleState : State
     public override void EXIT()
     {
         //Resey the idle trigger
+        infoCanvas.enabled = false;
         anim.ResetTrigger("isIdle");
         base.EXIT();
     }
