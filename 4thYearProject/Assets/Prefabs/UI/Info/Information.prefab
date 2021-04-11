@@ -417,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5260412299607166825, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5260412299607166827, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_Name
       value: InformationCanvas
@@ -435,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5260412299760391237, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100.000015
+      value: 100.00045
       objectReference: {fileID: 0}
     - target: {fileID: 5260412299760391238, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_Layer
@@ -443,11 +447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5260412300112008950, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_Size
-      value: 0.66652006
+      value: 0.66168094
       objectReference: {fileID: 0}
     - target: {fileID: 5260412300112008950, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_Value
-      value: -0.00000015258789
+      value: -0.0000047302246
       objectReference: {fileID: 0}
     - target: {fileID: 5260412300112008952, guid: 9b1ca6f30f20ba94d925de84fde526cb, type: 3}
       propertyPath: m_Layer

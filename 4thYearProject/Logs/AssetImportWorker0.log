@@ -15,12 +15,12 @@ C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64162
+49620
 Successfully changed project path to: C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.54 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 1.28 ms.
+Refreshing native plugins compatible for Editor in 36.86 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.30 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/tomll/Desktop/New4thYearProject/4thYearProject/4thYearProject/Assets
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001339 seconds.
+Registered in 0.001288 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.09 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 29.42 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
+- Completed reload, in  0.702 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004096 seconds.
+Registered in 0.004439 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.45 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 29.45 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -69,163 +69,51 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.655 seconds
+- Completed reload, in  0.645 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
+System memory in use after: 91.5 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 1.990400 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.082600 ms MarkObjects: 1.653400 ms  DeleteObjects: 0.054500 ms)
+Total: 2.012700 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.069700 ms MarkObjects: 1.658200 ms  DeleteObjects: 0.061500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c473dc8026c412d265f83e0d0646fd2a') in 0.121827 seconds
-  Import took 0.124815 seconds .
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729f06f5cafc39c318fe5257ae112f3f') in 0.127691 seconds
+  Import took 0.130790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.901438 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9dd6afb5a99d0a80ab4507e6861886') in 0.021169 seconds
-  Import took 0.023972 seconds .
+  Time since last request: 154.629107 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d543e27eec6a97b1a52750db4028c32') in 0.027969 seconds
+  Import took 0.031203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.057956 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946ec586e495d92e5e9f5c00c3d6fe2e') in 0.028059 seconds
-  Import took 0.031185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.423200 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ad24843719272c84c6dff6fe984b38') in 0.023107 seconds
-  Import took 0.026203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.204138 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14f216a248405f525d8c2c7e4fbf0b') in 0.025212 seconds
-  Import took 0.028446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.051503 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d9d2fd09846edd365fdf75961038fe') in 0.025630 seconds
-  Import took 0.029254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.831108 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fedac08101e0565b3b00bfa072831b') in 0.022338 seconds
-  Import took 0.025716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.842395 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1977edf5fdbecbaf1887b4790c73ad') in 0.026342 seconds
-  Import took 0.029378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.026139 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2604c4c934579b6c1f122497c08e5314') in 0.023218 seconds
-  Import took 0.026392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.448519 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7c95136afbba517287edc8b095222') in 0.024549 seconds
-  Import took 0.027851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.652311 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce92cd871ef96b8b28d060cfb302fe') in 0.023214 seconds
-  Import took 0.026276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.864120 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c0bbf16785f828e11c4cf4d48e31f8') in 0.019310 seconds
-  Import took 0.022272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.097308 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a5661b66c9b0a9d494f742017029f0') in 0.023460 seconds
-  Import took 0.026345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.068010 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3c89f612185cf4e3e4839b4bbf8496') in 0.020217 seconds
-  Import took 0.023247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.998575 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092b7d232ba82eddd036071407881765') in 0.021019 seconds
-  Import took 0.024315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.842346 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03175d3be73c60118237797d25d552ae') in 0.026524 seconds
-  Import took 0.029653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.697214 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c80c04acdfa72266d7c468464d28560') in 0.021198 seconds
-  Import took 0.024502 seconds .
+  Time since last request: 8.755542 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94235e6daed17f8c4b5137b2a8d06af0') in 0.023656 seconds
+  Import took 0.026668 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003887 seconds.
+Registered in 0.003917 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -236,459 +124,65 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  0.589 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.3 MB.
-System memory in use after: 94.4 MB.
+System memory in use before: 94.1 MB.
+System memory in use after: 94.1 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2358.
-Total: 2.129500 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.093200 ms MarkObjects: 1.656800 ms  DeleteObjects: 0.054900 ms)
+Total: 2.006700 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.052800 ms MarkObjects: 1.672200 ms  DeleteObjects: 0.053900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.365152 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15477701c1fa852246632dd6a84c6c5') in 0.098423 seconds
-  Import took 0.101435 seconds .
+  Time since last request: 392.529393 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5804b3ab1d803ca31c6c011ab75e64') in 0.104302 seconds
+  Import took 0.107721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.244073 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635cfe593152b49ec84ae726ce642ccf') in 0.020043 seconds
-  Import took 0.022864 seconds .
+  Time since last request: 3.114262 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab
+  artifactKey: Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab using Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45133d72ffe77866cf13de35e89b36e3') in 0.023524 seconds
+  Import took 0.026585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.407625 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d65caa7391c2f15b796fb07dc2aa7bc') in 0.021621 seconds
-  Import took 0.024758 seconds .
+  Time since last request: 3.730364 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361b4563a8798f4f6984ab78371833e6') in 0.029874 seconds
+  Import took 0.033675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.369932 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6803ef0e1d451b497b07dd972111cd7') in 0.020481 seconds
-  Import took 0.023232 seconds .
+  Time since last request: 3.375269 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95edd5cdc5d099273f3111be62092d3a') in 0.027919 seconds
+  Import took 0.031138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.836548 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09bf9b23fcd0dfc6b45a6da3e0eefe') in 0.024806 seconds
-  Import took 0.027888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.777459 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba0332c9d9d48a04d04e2362e174c28') in 0.022958 seconds
-  Import took 0.025840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.427981 seconds.
-  path: Assets/Prefabs/UI/Menu UI.prefab
-  artifactKey: Guid(e43257260682caf48ac8aa92e746b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Menu UI.prefab using Guid(e43257260682caf48ac8aa92e746b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef7c8f7ab94fe5c5110bcfc686410bc') in 0.027691 seconds
-  Import took 0.030678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.361172 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f5dd41a0fcdaf473c672cdffc0c258') in 0.029799 seconds
-  Import took 0.032805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.999102 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7f5bffade17efbe2855fa12e59d58b') in 0.019934 seconds
-  Import took 0.022916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.033773 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321bc938c40c483c3ffab641f2409e41') in 0.020177 seconds
-  Import took 0.023302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.844155 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81f5f862740b5c2d3cdd648ca70ea57') in 0.030126 seconds
-  Import took 0.033003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.624815 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8748b17a01b86013614ebfc3ce416f') in 0.022586 seconds
-  Import took 0.025706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.679896 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175fb075dc03236a7ec4fae21e38a9b3') in 0.021520 seconds
-  Import took 0.024717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.829075 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021172f52da527c2892d52a379af0658') in 0.023453 seconds
-  Import took 0.026690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.634428 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f55e5ff1d47d8bb338baae950a5c8f') in 0.020128 seconds
-  Import took 0.022970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.175132 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea5429407161ef07a78abfabba22d34') in 0.021576 seconds
-  Import took 0.024670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.805873 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9051d240eacc66c30511b279a9e1018') in 0.024658 seconds
-  Import took 0.027935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.054967 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a51f28f84cdacba424c84607321b775') in 0.021487 seconds
-  Import took 0.024538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.597579 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87d52fe321944735f56dc8ab179c04b') in 0.024495 seconds
-  Import took 0.027457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.304918 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb45b53b217c9ad273152e3b713221b0') in 0.020380 seconds
-  Import took 0.023353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.753933 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2a8d874798820adca1121dc50a74e8') in 0.021712 seconds
-  Import took 0.024706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.044301 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd574f4b7d7fe35463574e2f88ba723') in 0.020661 seconds
-  Import took 0.023708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.150144 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9455b44ae3626f53db04d015982cd') in 0.020499 seconds
-  Import took 0.024066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.475234 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8d06c4bf1a16622f16fded6febd6f4') in 0.021629 seconds
-  Import took 0.024946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.610936 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de6dc17dac0fc906f457773ea610cf7') in 0.020783 seconds
-  Import took 0.023824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.146927 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671c914202f4204216ef87f48daf2aa4') in 0.020403 seconds
-  Import took 0.023676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.045187 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069a178705ccd6c351b808c76c9517ce') in 0.019772 seconds
-  Import took 0.022856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.811541 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4e41c9f5df460a9d9ce2d2512ab87c') in 0.020829 seconds
-  Import took 0.023990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.024427 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda67e39f7143cfd2307bbb9705e6e8e') in 0.009476 seconds
-  Import took 0.012788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.993194 seconds.
-  path: Assets/Prefabs/AI/Team.prefab
-  artifactKey: Guid(0908ba4875b5f474e9440ee1d686d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AI/Team.prefab using Guid(0908ba4875b5f474e9440ee1d686d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2f41ecfdbaa9362ede9d1147cad0c6') in 0.149796 seconds
-  Import took 0.158250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.104450 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76041253f2e66a8350e921d9b8d0a15d') in 0.020935 seconds
-  Import took 0.023756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.517889 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ebd851aa3370121d7768e7fc3ad356') in 0.026815 seconds
-  Import took 0.029777 seconds .
+  Time since last request: 63.536599 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97eb9ea41a3b9bdb45761ceec7ca31a') in 0.025987 seconds
+  Import took 0.029317 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004509 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.5 MB.
-System memory in use after: 105.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 2.128600 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.774100 ms  DeleteObjects: 0.057800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.968692 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd027ecced2ca13defabae39fe86d92') in 0.105864 seconds
-  Import took 0.109068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.548271 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f980d79350e3ffce32216ae2e75dc8') in 0.021819 seconds
-  Import took 0.025066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.991729 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbcfe65ea5cdd8dc0c935c8be577f69') in 0.022300 seconds
-  Import took 0.025716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.814164 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7bb53a014ea5fc79c7893cfb039eb2') in 0.023997 seconds
-  Import took 0.027615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.068018 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f8592be7e55010da49131bbd25f7b8') in 0.021637 seconds
-  Import took 0.025220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.383282 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79cb1e33c6429c22e7face440209baa') in 0.021765 seconds
-  Import took 0.024902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.039669 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d860861db6ffd2317e5e0845dce54') in 0.021013 seconds
-  Import took 0.024292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.225630 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989e8dba561001b134b05567cd0ebe11') in 0.026954 seconds
-  Import took 0.030180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.214149 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d516e82705dd8e6619d70d088c4d8b') in 0.022527 seconds
-  Import took 0.025636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.849302 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8ec3cb3083539554806979bc10e6be') in 0.021186 seconds
-  Import took 0.024729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.202911 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a17c28e30414c5bdc3c4ce5c411601') in 0.021174 seconds
-  Import took 0.024546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.993859 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37484250b1a5105dff1116655b09f074') in 0.020676 seconds
-  Import took 0.024120 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004105 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 1.846700 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.545200 ms  DeleteObjects: 0.054800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.327938 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b411efecea65473144d6ee24a6dda') in 0.100360 seconds
-  Import took 0.103334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.736821 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e07d8776bb800eadff7ebca3fcf722') in 0.022370 seconds
-  Import took 0.025236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.992470 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b69fe9d3482e1c1dbafb1a44547d5') in 0.022717 seconds
-  Import took 0.025518 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005751 seconds.
+Registered in 0.004265 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.68 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -699,32 +193,16 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.581 seconds
+- Completed reload, in  0.625 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
+System memory in use before: 94.1 MB.
+System memory in use after: 94.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 2.182500 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.698300 ms  DeleteObjects: 0.053600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.079562 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2cac76642b04e2551482773747110') in 0.105944 seconds
-  Import took 0.109008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.663401 seconds.
-  path: Assets/Prefabs/KanBan/Ticket1.prefab
-  artifactKey: Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KanBan/Ticket1.prefab using Guid(7338dfc188ed6974783695d69993e101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7586640b847eb03c236474d6900d1eaf') in 0.027346 seconds
-  Import took 0.030487 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 2.407500 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.076600 ms MarkObjects: 1.972800 ms  DeleteObjects: 0.069200 ms)
 
 ========================================================================
 Received Prepare
@@ -732,7 +210,7 @@ Registering precompiled user dll's ...
 Registered in 0.003820 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -744,15 +222,323 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.564 seconds
+- Completed reload, in  0.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.1 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 2.128000 ms (FindLiveObjects: 0.297800 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.737300 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.571 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
+System memory in use before: 94.1 MB.
+System memory in use after: 94.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 1.914100 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.557900 ms  DeleteObjects: 0.063000 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 2.034100 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.705200 ms  DeleteObjects: 0.045400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 2.170300 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.829300 ms  DeleteObjects: 0.045500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.568 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 2.210400 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.910600 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 915.982230 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebc5562c0f91d64c0c36f2af8f4dd40') in 0.112099 seconds
+  Import took 0.115221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc10f94790033f3f742f9f8701819b1') in 0.024827 seconds
+  Import took 0.027397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beeb1af22828c430416bcdd17a8e460') in 0.024483 seconds
+  Import took 0.027324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab
+  artifactKey: Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab using Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720a506dab71d5a7033ab715722ca45e') in 0.022083 seconds
+  Import took 0.024505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.737430 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d7ce7d6573b3193363fea60dfdd9bb') in 0.026440 seconds
+  Import took 0.029861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163012f68228f05ab684bd02ec691101') in 0.024232 seconds
+  Import took 0.026964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79fb9f861808c9fb791869e606fc884') in 0.022430 seconds
+  Import took 0.025339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab
+  artifactKey: Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab using Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b85cd9138bff66929b1669551d55ab5') in 0.034128 seconds
+  Import took 0.036752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.771633 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ae20665f41ec2d110333f5910934d7') in 0.024717 seconds
+  Import took 0.027986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.910129 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09a2b7c3aed5c1dc65798e44e06721b') in 0.026014 seconds
+  Import took 0.029233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.879884 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dad2a7ca7db1c5e9a42f442479cfc0') in 0.023349 seconds
+  Import took 0.026259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3ff15fd05b2831c350105607bf0722') in 0.028545 seconds
+  Import took 0.031493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859b32023b4630037a0371b8710aeb60') in 0.029318 seconds
+  Import took 0.032239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab
+  artifactKey: Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab using Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d888951b6913fb2497687b55a03d9d') in 0.024940 seconds
+  Import took 0.027554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.495962 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab
+  artifactKey: Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/DevInformationArea.prefab using Guid(7ab06b4f70599ce408513d8d74a007c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb56cc3249541a82d7500dc5f0c498d') in 0.013477 seconds
+  Import took 0.016713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab
+  artifactKey: Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ScrumMasterInformationArea.prefab using Guid(9a791e257c8ba864194f35bd5723f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b596fffce53871b9d890a2e0e20a60') in 0.026574 seconds
+  Import took 0.029175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab
+  artifactKey: Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/ReleaseInformationArea.prefab using Guid(a243b7b8e1548da4a891958919ce9b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595ea557a5fb772b1cf38d67387c3509') in 0.025715 seconds
+  Import took 0.028601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab
+  artifactKey: Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/InfoPillars/TestInformationArea.prefab using Guid(87b60e57d48988b42a80e067682e7a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548ebbc04e17eff396fb4116d7002ec3') in 0.027374 seconds
+  Import took 0.030023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.660154 seconds.
+  path: Assets/Prefabs/UI/InformationCanvas.prefab
+  artifactKey: Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/InformationCanvas.prefab using Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e033257a46ad914cce68db362dbae18') in 0.007142 seconds
+  Import took 0.009744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.342705 seconds.
+  path: Assets/Prefabs/UI/InformationCanvas.prefab
+  artifactKey: Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/InformationCanvas.prefab using Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7b9b00d43ec0db5f6766b6097558f9') in 0.003966 seconds
+  Import took 0.007195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006795 seconds.
+  path: Assets/Prefabs/UI/InformationCanvas.prefab
+  artifactKey: Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/InformationCanvas.prefab using Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7b9b00d43ec0db5f6766b6097558f9') in 0.003626 seconds
+  Import took 0.006169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.003163 seconds.
+  path: Assets/Prefabs/UI/InformationCanvas.prefab
+  artifactKey: Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/InformationCanvas.prefab using Guid(9b1ca6f30f20ba94d925de84fde526cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07da3ef238e6d854e49f1fbb4aaab252') in 0.003935 seconds
+  Import took 0.007037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.973901 seconds.
+  path: Assets/Prefabs/UI/Info/Information.prefab
+  artifactKey: Guid(ab153f5c329ebcb46a682a01ab785f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/Information.prefab using Guid(ab153f5c329ebcb46a682a01ab785f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dadb4125f308aec0c62145991068e21') in 0.014223 seconds
+  Import took 0.017141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.872359 seconds.
+  path: Assets/Prefabs/UI/Info/Information.prefab
+  artifactKey: Guid(ab153f5c329ebcb46a682a01ab785f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Info/Information.prefab using Guid(ab153f5c329ebcb46a682a01ab785f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b53d74be81fd1cce930e2b6c84b57c7') in 0.023928 seconds
+  Import took 0.027052 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomll\Desktop\New4thYearProject\4thYearProject\4thYearProject\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 1.876800 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.572300 ms  DeleteObjects: 0.056000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
