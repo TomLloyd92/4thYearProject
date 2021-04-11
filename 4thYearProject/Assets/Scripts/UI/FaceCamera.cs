@@ -21,8 +21,12 @@ public class FaceCamera : MonoBehaviour
 
 
             Quaternion r1 = Quaternion.LookRotation(transform.position - mainCamera.transform.position, Vector3.up);
+
             Vector3 euler2 = transform.eulerAngles;
-            transform.rotation = Quaternion.Euler(euler2.x, r1.eulerAngles.y, euler2.z);
+
+        //euler2.x
+        // euler2.z
+        transform.rotation = Quaternion.Euler(0, r1.eulerAngles.y,0);
 
 
     }
