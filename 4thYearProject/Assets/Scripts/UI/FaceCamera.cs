@@ -16,7 +16,18 @@ public class FaceCamera : MonoBehaviour
     void Update()
     {
         //Rotate to player
-        transform.LookAt(transform.position + mainCamera.rotation * Vector3.forward,
-            mainCamera.rotation * Vector3.up);
+        //transform.LookAt(transform.position + mainCamera.rotation * Vector3.forward,
+        //    mainCamera.rotation * Vector3.up);
+
+
+            Quaternion r1 = Quaternion.LookRotation(transform.position - mainCamera.transform.position, Vector3.up);
+
+            Vector3 euler2 = transform.eulerAngles;
+
+        //euler2.x
+        // euler2.z
+        transform.rotation = Quaternion.Euler(0, r1.eulerAngles.y,0);
+
+
     }
 }

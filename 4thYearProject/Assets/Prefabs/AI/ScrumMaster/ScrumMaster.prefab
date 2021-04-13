@@ -2187,10 +2187,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc23069d526d7f41b68718a3891bbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  kanBanBoardPos: {fileID: 0}
-  kanBanBoard: {fileID: 0}
-  chair: {fileID: 0}
+  playerTransform: {fileID: 9113940957322758477, guid: 27488fb660d415347998cdc58ddb3201, type: 3}
+  kanBanBoardPos: {fileID: 1689455230483143020, guid: 58c0054e864c6e149863d46b2e143ca9, type: 3}
+  kanBanBoard: {fileID: 3935548382153748255, guid: ccde063cfe6c0444a86e35c50ab87265, type: 3}
+  chair: {fileID: 7000544610995831156, guid: df80ca54ee8ba054e83cfe245ea9820a, type: 3}
   greeting: {fileID: 919132149552709824}
   kanBanTalk: {fileID: 0}
   ticket: {fileID: 1856828794201606974, guid: fdd8de3243889b44fa8e06ba9f05ee6d, type: 3}
