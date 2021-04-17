@@ -15,8 +15,11 @@ public class FollowerScript : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = tiedObject.transform.position;
-        Vector3 euler1 = tiedObject.transform.eulerAngles;
-        transform.rotation = Quaternion.Euler(euler1.x , euler1.y, euler1.z);
+        if (tiedObject != null)
+        { 
+            transform.position = tiedObject.transform.position;
+            Vector3 euler1 = tiedObject.transform.eulerAngles;
+            transform.rotation = Quaternion.Euler(euler1.x , euler1.y, euler1.z);
+        }
     }
 }

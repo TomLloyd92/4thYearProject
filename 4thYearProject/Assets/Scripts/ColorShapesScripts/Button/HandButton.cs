@@ -4,7 +4,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class HandButton : XRBaseInteractable
 {
-
     //Check Press and Previous press
     public UnityEvent OnPress = null;
     private bool previousPress = false;
@@ -126,6 +125,4 @@ public class HandButton : XRBaseInteractable
 
         return transform.localPosition.y == inRange;
     }
-    
-
 }

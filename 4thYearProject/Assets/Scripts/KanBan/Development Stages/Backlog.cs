@@ -18,6 +18,7 @@ public class Backlog : MonoBehaviour
         if(collider.tag == "Ticket")
         {
             collider.GetComponent<Ticket>().freezeTicket();
+            Debug.Log("Called");
         }
     }
 
@@ -48,6 +49,4 @@ public class Backlog : MonoBehaviour
             ticket.SetOnBoard(this.transform.position);
         }
     }
-
-
 }

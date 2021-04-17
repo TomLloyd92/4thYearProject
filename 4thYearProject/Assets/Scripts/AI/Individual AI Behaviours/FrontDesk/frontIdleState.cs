@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class frontIdleState : State
 {
-    AudioSource audio;
+    //AudioSource audio;
     Canvas infoCanvas;
 
     //Constructor
@@ -16,7 +16,7 @@ public class frontIdleState : State
         //Assign name
         name = STATE.IDLE;
 
-        audio = t_gameObject.GetComponent<AudioSource>();
+        //audio = t_gameObject.GetComponent<AudioSource>();
     }
 
     public override void Enter()
@@ -26,7 +26,7 @@ public class frontIdleState : State
         //Start the idle Animation
         anim.SetTrigger("isIdle");
         base.Enter();
-        audio.Play();
+        //audio.Play();
         infoCanvas.enabled = true;
         //agent.speed = 0;
     }

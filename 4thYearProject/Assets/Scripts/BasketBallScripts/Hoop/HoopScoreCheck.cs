@@ -32,15 +32,19 @@ public class HoopScoreCheck : MonoBehaviour
     {
         if(collider.tag == "BasketBall" )
         {
+            BasketBallMiniGameManager.instance.increaseBasketScored();
+
+            Debug.Log(BasketBallMiniGameManager.instance.GetBasketsScored());
+
             //fireworks.GetComponent<ParticleSystem>().emission.enabled;
-            Debug.Log("BASKET");
+            //Debug.Log("BASKET");
 
-            fireworkss.Play();
-            StartCoroutine(stopFireWorks());
+            //fireworkss.Play();
+            //StartCoroutine(stopFireWorks());
 
-          //  sound1.Play();
-          //  sound2.Play();
-           // sound3.Play();
+            //  sound1.Play();
+            //  sound2.Play();
+            // sound3.Play();
         }
 
         //Instantiate(ticket);
