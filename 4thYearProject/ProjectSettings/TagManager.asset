@@ -16,6 +16,9 @@ TagManager:
   - TestMeeting
   - ReleaseMeeting
   - MainMenuUi
+  - Cube
+  - Cylinder
+  - Pyramid
   layers:
   - Default
   - TransparentFX
