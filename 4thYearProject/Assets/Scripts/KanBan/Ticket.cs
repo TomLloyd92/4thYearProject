@@ -74,7 +74,7 @@ public class Ticket : MonoBehaviour
         else if (onBoard)
         {
 
-            transform.position = boardPos;
+           //transform.position = boardPos;
         }
     }
 
@@ -86,12 +86,14 @@ public class Ticket : MonoBehaviour
 
         rb.constraints = RigidbodyConstraints.FreezePosition;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rb.useGravity = false;
 
     }
 
     public void unfreezeTicket()
     {
         rb.constraints = RigidbodyConstraints.None;
+        rb.useGravity = true;
     }
 
     public bool getActive()
@@ -107,11 +109,13 @@ public class Ticket : MonoBehaviour
 
     public void SetOnBoard(Vector3 position)
     {
+        transform.position = position;
         //Freeze ticket while on board;
         freezeTicket();
 
         //Set position
         boardPos = position;
+
 
         //Set Bools
         pickedUp = false;
