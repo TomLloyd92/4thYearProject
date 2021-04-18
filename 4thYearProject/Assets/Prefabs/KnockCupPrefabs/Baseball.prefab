@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2606373837570506990}
   - component: {fileID: 3667956027562685192}
   - component: {fileID: 3705331429241248190}
+  - component: {fileID: 2757033339910257226}
   m_Layer: 0
   m_Name: Baseball
-  m_TagString: Untagged
+  m_TagString: Baseball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,3 +191,15 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!114 &2757033339910257226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273021594138373190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db549ad547e06a94e8999104ca74bc7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

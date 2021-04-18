@@ -19,6 +19,8 @@ TagManager:
   - Cube
   - Cylinder
   - Pyramid
+  - Baseball
+  - CupStack
   layers:
   - Default
   - TransparentFX
