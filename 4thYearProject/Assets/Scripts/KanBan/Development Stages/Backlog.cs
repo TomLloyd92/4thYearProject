@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Backlog : MonoBehaviour
 {
-    private List<Ticket> tickets = new List<Ticket>();
+
+
+    public List<Ticket> tickets = new List<Ticket>();
     [SerializeField] private Transform[] spaces;
 
     public List<Ticket> GetTickets()
@@ -15,10 +17,14 @@ public class Backlog : MonoBehaviour
     #region VR
     private void OnTriggerEnter(Collider collider)
     {
-        if(collider.tag == "Ticket")
+        if(Player.instance.playerRole == Player.PlayerRole.ProductOwner)
         {
-            collider.GetComponent<Ticket>().freezeTicket();
-            Debug.Log("Called");
+            if(collider.tag == "Ticket")
+            {
+                tickets.Add(collider.GetComponent<Ticket>());
+                collider.GetComponent<Ticket>().freezeTicket();
+                Debug.Log("Called");
+            }
         }
     }
 
@@ -37,9 +43,15 @@ public class Backlog : MonoBehaviour
 
         t_ticket.SetOnBoard(spaces[tickets.Count - 1].position);
     }
-    public void removeTicket(Ticket t_ticket)
+    public void removeTicket(int id)
     {
-        tickets.Remove(t_ticket);
+        for(int i =0; i < tickets.Count; i++)
+        {
+            if (tickets[i].ID == id)
+            {
+                tickets.Remove(tickets[i]);
+            }
+        }
     }
 
     private void updateTicketPos()

@@ -30,7 +30,7 @@ public class DevPlaceInDev : Node
 
         if (timer > waitTime)
         {
-            backlog.removeTicket(dev.currentTicket);
+            backlog.removeTicket(dev.currentTicket.ID);
             //Debug.Log("Ticket Placed");
             dev.currentTicket.ticketState = Ticket.TicketState.InDev;
             anim.SetBool("isPlacingTicket", false);
