@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Ticket currentTicket;
+
     public enum PlayerRole
     {
         NoRole,

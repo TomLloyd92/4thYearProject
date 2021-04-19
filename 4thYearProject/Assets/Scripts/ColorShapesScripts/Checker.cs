@@ -7,6 +7,8 @@ public class Checker : MonoBehaviour
     [SerializeField] SpecScreen shapeOne;
     [SerializeField] SpecScreen shapeTwo;
 
+    static int shapesCompleted = 0;
+
     Collider collider;
     bool checkShape = false;
 
@@ -63,13 +65,26 @@ public class Checker : MonoBehaviour
         {
             Destroy(shape.gameObject);
             Debug.Log("Correct");
+            shapesCompleted += 1;
+            CheckWin();
         }
         else if (shape.tag == shapeTwo.shape && shapeTwo.color == shape.GetComponent<MeshRenderer>().material.color)
         {
             Destroy(shape.gameObject);
+            shapesCompleted += 1;
+            CheckWin();
+
             Debug.Log("Correct");
         }
 
     }
 
+    private void CheckWin()
+    {
+       if(shapesCompleted == 2)
+        {
+            Player.instance.currentTicket.ticketState = Ticket.TicketState.DevDone;
+            shapesCompleted = 0;
+        }
+    }
 }

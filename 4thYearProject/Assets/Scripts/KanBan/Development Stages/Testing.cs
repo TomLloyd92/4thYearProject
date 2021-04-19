@@ -15,9 +15,18 @@ public class Testing : MonoBehaviour
     #region VR
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag == "Ticket")
+        if (Player.instance.playerRole == Player.PlayerRole.Developer)
         {
-            collider.GetComponent<Ticket>().freezeTicket();
+            if (collider.tag == "Ticket")
+            {
+                if(collider.GetComponent<Ticket>().ticketState == Ticket.TicketState.DevDone)
+                {
+                    Debug.Log("Toclet Placed in Testing");
+                    tickets.Add(collider.GetComponent<Ticket>());
+                    collider.GetComponent<Ticket>().freezeTicket();
+                    Player.instance.currentTicket = collider.GetComponent<Ticket>();
+                }
+            }
         }
     }
 

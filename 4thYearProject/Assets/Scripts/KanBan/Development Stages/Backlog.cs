@@ -30,9 +30,12 @@ public class Backlog : MonoBehaviour
 
     private void OnTriggerExit(Collider collider)
     {
-        if (collider.tag == "Ticket")
+        if(Player.instance.playerRole == Player.PlayerRole.Developer)
         {
-            collider.GetComponent<Ticket>().unfreezeTicket();
+            if (collider.tag == "Ticket")
+            {
+                collider.GetComponent<Ticket>().unfreezeTicket();
+            }
         }
     }
     #endregion
