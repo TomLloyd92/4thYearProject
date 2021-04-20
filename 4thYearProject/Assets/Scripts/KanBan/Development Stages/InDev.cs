@@ -24,6 +24,15 @@ public class InDev : MonoBehaviour
                 Player.instance.currentTicket = collider.GetComponent<Ticket>();
             }
         }
+        else if(Player.instance.playerRole == Player.PlayerRole.Tester && collider.GetComponent<Ticket>().ticketState == Ticket.TicketState.TestingFailed)
+        {
+            if (collider.tag == "Ticket")
+            {
+                tickets.Add(collider.GetComponent<Ticket>());
+                collider.GetComponent<Ticket>().freezeTicket();
+                collider.GetComponent<Ticket>().ticketState = Ticket.TicketState.InDev;
+            }
+        }
     }
 
     private void OnTriggerExit(Collider collider)
@@ -31,6 +40,12 @@ public class InDev : MonoBehaviour
         if (collider.tag == "Ticket")
         {
             collider.GetComponent<Ticket>().unfreezeTicket();
+
+            //Remove the ticket on exit if player is developer
+            if(Player.instance.playerRole == Player.PlayerRole.Developer)
+            {
+                removeTicket(collider.GetComponent<Ticket>());
+            }
         }
     }
     #endregion

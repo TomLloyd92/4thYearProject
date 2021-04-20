@@ -7,11 +7,18 @@ public class CupGameManager : MonoBehaviour
     //Singleton static instance
     public static CupGameManager instance;
 
+    public bool timerStarted = false;
+
     [SerializeField] GameObject cupStack;
     [SerializeField] Transform spawnPos;
 
     private int cupsKnocked;
     private int AMOUNT_CUPS_NEEDED = 5;
+
+    public void startTimer()
+    {
+        timerStarted = true;
+    }
 
     private void Awake()
     {
@@ -38,7 +45,7 @@ public class CupGameManager : MonoBehaviour
         CheckWin();
     }
 
-    public void resetBasketScored()
+    public void resetCupsScored()
     {
         cupsKnocked = 0;
     }
@@ -51,4 +58,6 @@ public class CupGameManager : MonoBehaviour
             //Instantiate(ticket, spawnPos);
         }
     }
+
+
 }

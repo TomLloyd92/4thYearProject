@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Done : MonoBehaviour
 {
-    private List<Ticket> tickets = new List<Ticket>();
+    public List<Ticket> tickets = new List<Ticket>();
     [SerializeField] Transform[] spaces;
 
     public List<Ticket> GetTickets()
@@ -15,6 +15,19 @@ public class Done : MonoBehaviour
     #region VR
     private void OnTriggerEnter(Collider collider)
     {
+        if (Player.instance.playerRole == Player.PlayerRole.Release)
+        {
+            if (collider.tag == "Ticket")
+            {
+                if (collider.GetComponent<Ticket>().ticketState == Ticket.TicketState.ReleaseDone)
+                {
+                    tickets.Add(collider.GetComponent<Ticket>());
+                    collider.GetComponent<Ticket>().freezeTicket();
+                    collider.GetComponent<Ticket>().ticketState = Ticket.TicketState.Done;
+                }
+            }
+        }
+
         if (collider.tag == "Ticket")
         {
             collider.GetComponent<Ticket>().freezeTicket();

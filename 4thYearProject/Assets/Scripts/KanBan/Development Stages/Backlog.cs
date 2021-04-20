@@ -35,6 +35,7 @@ public class Backlog : MonoBehaviour
             if (collider.tag == "Ticket")
             {
                 collider.GetComponent<Ticket>().unfreezeTicket();
+                tickets.Remove(collider.GetComponent<Ticket>());
             }
         }
     }

@@ -15,15 +15,20 @@ public class Cup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 eulerAngles = transform.eulerAngles;
-
-        if (scored == false)
+        if(CupGameManager.instance.timerStarted)
         {
-            if(eulerAngles.x < 60 || eulerAngles.x > 125)
+            Vector3 eulerAngles = transform.eulerAngles;
+
+            if (scored == false)
             {
-                CupGameManager.instance.increaseCupsKnocked();
-                scored = true;
+                if(eulerAngles.x < 60 || eulerAngles.x > 125)
+                {
+                    CupGameManager.instance.increaseCupsKnocked();
+                    scored = true;
+                }
             }
+
         }
+
     }
 }
