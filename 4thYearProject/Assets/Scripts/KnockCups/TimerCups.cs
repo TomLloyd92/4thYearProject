@@ -26,7 +26,7 @@ public class TimerCups : MonoBehaviour
             }
             else
             {
-
+                CupGameManager.instance.EvaluateScore();
                 CupGameManager.instance.timerStarted = false;
                 CupGameManager.instance.resetCupsScored();
                 timeRemaining = 60;
