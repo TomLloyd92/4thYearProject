@@ -27,6 +27,7 @@ public class DestroyBaseBall : MonoBehaviour
     public void startDestroyAllCups()
     {
         StartCoroutine(destoryCups());
+        StartCoroutine(createAStack());
     }
 
     private IEnumerator destoryCups()
@@ -36,11 +37,13 @@ public class DestroyBaseBall : MonoBehaviour
         GameObject cupStack = GameObject.FindGameObjectWithTag("CupStack");
 
         Destroy(cupStack);
+    }
 
-        yield return new WaitForSeconds(1.5f);
+    private IEnumerator createAStack()
+    {
+        yield return new WaitForSeconds(3);
 
         Instantiate(cups, cupsSpawn);
-
     }
 
 }

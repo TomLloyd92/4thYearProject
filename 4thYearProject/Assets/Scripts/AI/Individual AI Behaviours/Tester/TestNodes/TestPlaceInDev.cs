@@ -32,6 +32,7 @@ public class TestPlaceInDev : Node
             tester.currentTicket.ticketState = Ticket.TicketState.InDev;
             anim.SetBool("isPlacingTicket", false);
             timer = 0;
+            tester.currentTicket = null;
             tester.hasTicket = false;
             return state.Success;
         }
