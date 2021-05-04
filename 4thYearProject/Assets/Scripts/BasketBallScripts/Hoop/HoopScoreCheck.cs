@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class HoopScoreCheck : MonoBehaviour
 {
-    //Ticket
-
-    //Audio Clips for Basket
-   // public AudioSource sound1;
-   // public AudioSource sound2;
-    //public AudioSource sound3;
-
     //Particle Transform for Basket
     public Transform fireworks;
 
@@ -35,19 +28,7 @@ public class HoopScoreCheck : MonoBehaviour
             BasketBallMiniGameManager.instance.increaseBasketScored();
 
             Debug.Log(BasketBallMiniGameManager.instance.GetBasketsScored());
-
-            //fireworks.GetComponent<ParticleSystem>().emission.enabled;
-            //Debug.Log("BASKET");
-
-            //fireworkss.Play();
-            //StartCoroutine(stopFireWorks());
-
-            //  sound1.Play();
-            //  sound2.Play();
-            // sound3.Play();
         }
-
-        //Instantiate(ticket);
     }
 
     IEnumerator stopFireWorks()
