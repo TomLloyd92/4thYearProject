@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TimerCups : MonoBehaviour
 {
-    public float timeRemaining = 60;
+    public float timeRemaining = 30;
     bool timerOn = false;
 
     TextMeshProUGUI scoreText;
@@ -29,7 +29,7 @@ public class TimerCups : MonoBehaviour
                 CupGameManager.instance.EvaluateScore();
                 CupGameManager.instance.timerStarted = false;
                 CupGameManager.instance.resetCupsScored();
-                timeRemaining = 60;
+                timeRemaining = 30;
             }
         }
 

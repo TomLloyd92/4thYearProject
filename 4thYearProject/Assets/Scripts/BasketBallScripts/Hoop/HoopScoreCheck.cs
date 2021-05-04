@@ -26,6 +26,8 @@ public class HoopScoreCheck : MonoBehaviour
         if(collider.tag == "BasketBall" )
         {
             BasketBallMiniGameManager.instance.increaseBasketScored();
+            
+
 
             Debug.Log(BasketBallMiniGameManager.instance.GetBasketsScored());
         }
