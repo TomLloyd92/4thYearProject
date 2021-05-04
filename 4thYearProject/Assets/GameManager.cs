@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public void StartParticipationMode()
     {
+        team.SetActive(true);
         MiniGames.SetActive(true);
     }
 }

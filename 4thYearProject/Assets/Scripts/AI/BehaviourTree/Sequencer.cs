@@ -24,6 +24,7 @@ public class Sequencer : Node
             switch (node.Evaluate())
             {
                 case state.Running:
+                    //Node is now running
                     isAnyNodeRunning = true;
                     break;
                 case state.Success:
@@ -35,6 +36,7 @@ public class Sequencer : Node
                     break;
             }
         }
+
         currentState = isAnyNodeRunning ? state.Running : state.Success;
         return currentState;
 

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Backlog : MonoBehaviour
 {
-
-
     public List<Ticket> tickets = new List<Ticket>();
     [SerializeField] private Transform[] spaces;
 

@@ -27,29 +27,38 @@ public class HandPresence : MonoBehaviour
 
     void TryInitialize()
     {
+        //New List of Devices
         List<InputDevice> devices = new List<InputDevice>();
         //Get Devices with Controller Characteristics
         InputDevices.GetDevicesWithCharacteristics(controllerCharacteristics, devices);
 
+        //Log the name of each device connected
         foreach (var item in devices)
         {
             Debug.Log(item.name + item.characteristics);
         }
 
+        //If there is a Device connected
         if (devices.Count > 0)
         {
             targetDevice = devices[0];
+            //Assign Relative controller prefab
             GameObject prefab = controllerPrefab.Find(controller => controller.name == targetDevice.name);
+            //If the prefab was assigned and not null
             if (prefab)
             {
+                //Instantiate prefab
                 spawnedController = Instantiate(prefab, transform);
             }
             else
             {
+                //Default to oculus controller
                 Debug.Log("Did not find the correct Controller, Default to Oculus Quest 2 Controller");
                 spawnedController = Instantiate(controllerPrefab[0], transform);
             }
 
+
+            //Assign the hand model prefab and Animator
             spawnedHandModel = Instantiate(handModelPrefab, transform);
             handAnimator = spawnedHandModel.GetComponent<Animator>();
         }
@@ -93,6 +102,7 @@ public class HandPresence : MonoBehaviour
     {
         if (showController)
         {
+            //Turn off hands and turn on controller
             spawnedHandModel.SetActive(false);
             spawnedController.SetActive(true);
         }
@@ -100,6 +110,7 @@ public class HandPresence : MonoBehaviour
         {
             if(spawnedHandModel != null)
             {
+                //Activate hands and update hand animations
                 spawnedHandModel.SetActive(true);
                 spawnedController.SetActive(false);
                 UpdateHandAnimator();
